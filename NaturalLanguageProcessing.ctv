@@ -29,7 +29,7 @@
 	</li>
 	<li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as 
 	  extracting words from strings by content rather than by delimiters.
-	  demo("gsubfn-gries") shows an example of this in a natural language 
+	  <code>demo("gsubfn-gries")</code> shows an example of this in a natural language 
 	  processing context.
 	</li>
 	  </ul>
