@@ -15,6 +15,24 @@
 	  lexical database of English.
 	</li>
       </ul>
+	  <h4>Keyword Extraction and General String Manipulation:</h4>
+	  <ul>
+	<li><pkg>base</pkg> already provides a rich set of character manipulation
+	routines. See help.search(keyword = "character", package = "base")
+	for more information on these capabilities of the base of R.
+	</li>
+	<li><pkg>RKEA</pkg> provides an R interface to <a
+	  href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for
+	  Keyphrase Extraction Algorithm) allows for extracting keyphrases from
+	  text documents. It can be either used for free indexing or for indexing
+	  with a controlled vocabulary.
+	</li>
+	<li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as 
+	  extracting words from strings by content rather than by delimiters.
+	  demo("gsubfn-gries") shows an example of this in a natural language 
+	  processing context.
+	</li>
+	  </ul>
       <h4>Natural Language Processing:</h4>
       <ul>
 	<li><pkg>openNLP</pkg> provides an R interface
@@ -113,6 +131,8 @@
     <pkg priority="core">tm</pkg>
     <pkg>wordnet</pkg>
     <pkg>zipfR</pkg>
+    <pkg>gsubfn</pkg>
+    <pkg>RKEA</pkg>
   </packagelist>
 
   <links>
