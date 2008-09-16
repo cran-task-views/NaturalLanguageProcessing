@@ -2,8 +2,8 @@
 
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
-  <maintainer email="fridolin.wild@wu-wien.ac.at">Ingo Feinerer and Fridolin Wild</maintainer>
-  <version>2008-04-18</version>
+  <maintainer email="Fridolin.Wild@wu-wien.ac.at">Ingo Feinerer and Fridolin Wild</maintainer>
+  <version>2008-09-16</version>
   
   <info>
       <p>This CRAN Task View contains a list of packages useful for
@@ -17,9 +17,9 @@
       </ul>
 	  <h4>Keyword Extraction and General String Manipulation:</h4>
 	  <ul>
-	<li><pkg>base</pkg> already provides a rich set of character manipulation
-	routines. See help.search(keyword = "character", package = "base")
-	for more information on these capabilities of the base of R.
+	<li>R's base package already provides a rich set of character manipulation
+	routines. See <code>help.search(keyword = "character", package = "base")</code>
+	for more information on these capabilities.
 	</li>
 	<li><pkg>RKEA</pkg> provides an R interface to <a
 	  href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for
