@@ -8,6 +8,11 @@
   <info>
       <p>This CRAN Task View contains a list of packages useful for
       natural language processing.</p>
+	  <h4>Phonetics and Speech Processing:</h4>
+      <ul>
+	<li><pkg>emu</pkg> is a collection of tools for the creation, manipulation, and analysis of speech databases. At the core of EMU is a database search engine which allows the researcher to find various speech segments based on the sequential and hierarchical structure of the utterances in which they occur. EMU includes an interactive labeller which can display spectrograms and other speech waveforms, and which allows the creation of hierarchical, as well as sequential, labels for a speech utterance.
+	</li>
+      </ul>
       <h4>Lexical Databases:</h4>
       <ul>
 	<li><pkg>wordnet</pkg> provides an R interface
