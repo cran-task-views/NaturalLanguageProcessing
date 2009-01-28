@@ -125,6 +125,7 @@
   </info>
 
   <packagelist>
+    <pkg>emu</pkg>
     <pkg>corpora</pkg>
     <pkg>kernlab</pkg>
     <pkg>languageR</pkg>
