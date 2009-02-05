@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="Fridolin.Wild@wu-wien.ac.at">Ingo Feinerer and Fridolin Wild</maintainer>
-  <version>2009-01-27</version>
+  <version>2009-02-05</version>
   
   <info>
       <p>This CRAN Task View contains a list of packages useful for
