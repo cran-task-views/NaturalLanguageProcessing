@@ -48,8 +48,9 @@
 	  Java package for training and using maximum entropy
 	  models.
 	</li>
-	<li><pkg>openNLPmodels</pkg>
-	  ships trained models for English and Spanish to be used
+	<li><pkg>openNLPmodels.en</pkg>
+	  ships trained models for English and 
+	  <pkg>openNLPmodels.es</pkg> for Spanish to be used
 	  with <pkg>openNLP</pkg>.
 	</li>
 	<li><pkg>RWeka</pkg> is a interface
@@ -131,7 +132,8 @@
     <pkg>languageR</pkg>
     <pkg>lsa</pkg>
     <pkg>openNLP</pkg>
-    <pkg>openNLPmodels</pkg>
+    <pkg>openNLPmodels.en</pkg>
+    <pkg>openNLPmodels.es</pkg>
     <pkg>RWeka</pkg>
     <pkg>Snowball</pkg>
     <pkg priority="core">tm</pkg>
