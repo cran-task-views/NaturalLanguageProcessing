@@ -2,17 +2,20 @@
 
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
-  <maintainer email="Fridolin.Wild@wu-wien.ac.at">Ingo Feinerer and Fridolin Wild</maintainer>
-  <version>2009-02-05</version>
+  <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
+  <version>2011-08-31</version>
   
   <info>
       <p>This CRAN Task View contains a list of packages useful for
       natural language processing.</p>
+		<p>Side-note on text mining: In recent years, we have elaborated a framework to be used in packages dealing with the processing of written material: the package <pkg>tm</pkg>. Extension packages in this area are highly recommended to interface with tm's basic routines and developers are cordially invited to join in the discussion on further developments of this framework pacakge.</p>
+
 	  <h4>Phonetics and Speech Processing:</h4>
       <ul>
 	<li><pkg>emu</pkg> is a collection of tools for the creation, manipulation, and analysis of speech databases. At the core of EMU is a database search engine which allows the researcher to find various speech segments based on the sequential and hierarchical structure of the utterances in which they occur. EMU includes an interactive labeller which can display spectrograms and other speech waveforms, and which allows the creation of hierarchical, as well as sequential, labels for a speech utterance.
 	</li>
       </ul>
+
       <h4>Lexical Databases:</h4>
       <ul>
 	<li><pkg>wordnet</pkg> provides an R interface
@@ -20,6 +23,7 @@
 	  lexical database of English.
 	</li>
       </ul>
+
 	  <h4>Keyword Extraction and General String Manipulation:</h4>
 	  <ul>
 	<li>R's base package already provides a rich set of character manipulation
@@ -38,6 +42,7 @@
 	  processing context.
 	</li>
 	  </ul>
+
       <h4>Natural Language Processing:</h4>
       <ul>
 	<li><pkg>openNLP</pkg> provides an R interface
@@ -74,6 +79,7 @@
 	  stemming algorithm.
 	</li>
       </ul>
+		
       <h4>String Kernels:</h4>
       <ul>
 	<li><pkg>kernlab</pkg>
@@ -84,6 +90,7 @@
 	  as input.
 	</li>
       </ul>
+		
       <h4>Text Mining:</h4>
       <ul>
 	<li><pkg>tm</pkg>
@@ -97,16 +104,21 @@
 	<li><pkg>lsa</pkg>
 	  provides routines for performing a latent semantic analysis with R.
 	  The basic idea of latent semantic analysis (LSA) is, 
-      that text do have a higher order (=latent semantic) structure which, 
-      however, is obscured by word usage (e.g. through the use of synonyms 
-      or polysemy). By using conceptual indices that are derived statistically 
-      via a truncated singular value decomposition (a two-mode factor analysis) 
-      over a given document-term matrix, this variability problem can be overcome.
+     that text do have a higher order (=latent semantic) structure which, 
+     however, is obscured by word usage (e.g. through the use of synonyms 
+     or polysemy). By using conceptual indices that are derived statistically 
+     via a truncated singular value decomposition (a two-mode factor analysis) 
+     over a given document-term matrix, this variability problem can be overcome.
 	  The article <a href="http://www.springerlink.com/content/g7u377132gq5623g/">Investigating 
 	  Unstructured Texts with Latent Semantic Analysis</a>
 	  gives a detailed overview and demonstrates the use of the package 
 	  with examples from the are of technology-enhanced learning.
 	</li>
+	<li><pkg>RTextTools</pkg> is a machine learning package for automatic
+     text classification. It implements the nine different algorithms (svm, slda,
+     boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
+     the evaluation of accuracy.
+   </li>
 	<li><pkg>corpora</pkg>
 	  offers utility functions for the statistical analysis of corpus frequency data.
 	</li>
@@ -141,6 +153,7 @@
     <pkg>zipfR</pkg>
     <pkg>gsubfn</pkg>
     <pkg>RKEA</pkg>
+	 <pkg>RTextTools</pkg>
   </packagelist>
 
   <links>
