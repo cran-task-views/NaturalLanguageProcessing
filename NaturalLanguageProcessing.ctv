@@ -41,7 +41,8 @@
 	  <code>demo("gsubfn-gries")</code> shows an example of this in a natural language 
 	  processing context.
 	</li>
-	  </ul>
+	<li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
+	 </ul>
 
       <h4>Natural Language Processing:</h4>
       <ul>
@@ -72,10 +73,7 @@
 	  the <a href="http://snowball.tartarus.org/">Snowball</a>
 	  webpage for details.
 	</li>
-	<li>Alternatively,
-	  the <a href="http://www.omegahat.org">Omegahat</a>
-	  package <a href="http://www.omegahat.org/Rstem/">Rstem</a>
-	  provides an R interface to a C version of Porter's word
+	<li><pkg>Rstem</pkg> is an alternative interface to a C version of Porter's word
 	  stemming algorithm.
 	</li>
       </ul>
@@ -119,6 +117,7 @@
      boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
      the evaluation of accuracy.
    </li>
+	<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 	<li><pkg>corpora</pkg>
 	  offers utility functions for the statistical analysis of corpus frequency data.
 	</li>
