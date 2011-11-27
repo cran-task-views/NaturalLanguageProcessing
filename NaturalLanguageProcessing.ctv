@@ -121,11 +121,6 @@
 	<li><pkg>corpora</pkg>
 	  offers utility functions for the statistical analysis of corpus frequency data.
 	</li>
-	<li><pkg>languageR</pkg>
-	  provides data sets and functions exemplifying statistical methods, and some 
-	  facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical 
-	  Introduction to Statistics Using R", Cambridge University Press, 2008.
-	</li>
 	<li><pkg>zipfR</pkg>
 	  offers some statistical models for word frequency distributions. The
       utilities include functions for loading, manipulating and visualizing word frequency data and
@@ -140,7 +135,6 @@
     <pkg>emu</pkg>
     <pkg>corpora</pkg>
     <pkg>kernlab</pkg>
-    <pkg>languageR</pkg>
     <pkg>lsa</pkg>
     <pkg>openNLP</pkg>
     <pkg>openNLPmodels.en</pkg>
@@ -152,7 +146,7 @@
     <pkg>zipfR</pkg>
     <pkg>gsubfn</pkg>
     <pkg>RKEA</pkg>
-	 <pkg>RTextTools</pkg>
+    <pkg>RTextTools</pkg>
   </packagelist>
 
   <links>
