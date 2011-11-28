@@ -6,11 +6,14 @@
   <version>2011-11-27</version>
   
   <info>
-      <p>This CRAN Task View contains a list of packages useful for
-      natural language processing.</p>
-		<p>Side-note on text mining: In recent years, we have elaborated a framework to be used in packages dealing with the processing of written material: the package <pkg>tm</pkg>. Extension packages in this area are highly recommended to interface with tm's basic routines and developers are cordially invited to join in the discussion on further developments of this framework pacakge.</p>
+      <p>This CRAN Task View contains a list of packages useful for natural language processing.</p>
+      <p>Side-note on text mining: In recent years, we have elaborated a framework to be used in
+      packages dealing with the processing of written material: the package <pkg>tm</pkg>.
+      Extension packages in this area are highly recommended to interface with tm's basic routines
+      and developers are cordially invited to join in the discussion on further developments of this
+      framework pacakge.</p>
 
-	  <h4>Phonetics and Speech Processing:</h4>
+      <h4>Phonetics and Speech Processing:</h4>
       <ul>
 	<li><pkg>emu</pkg> is a collection of tools for the creation, manipulation, and analysis of speech databases. At the core of EMU is a database search engine which allows the researcher to find various speech segments based on the sequential and hierarchical structure of the utterances in which they occur. EMU includes an interactive labeller which can display spectrograms and other speech waveforms, and which allows the creation of hierarchical, as well as sequential, labels for a speech utterance.
 	</li>
@@ -24,25 +27,25 @@
 	</li>
       </ul>
 
-	  <h4>Keyword Extraction and General String Manipulation:</h4>
-	  <ul>
-	<li>R's base package already provides a rich set of character manipulation
-	routines. See <code>help.search(keyword = "character", package = "base")</code>
-	for more information on these capabilities.
-	</li>
-	<li><pkg>RKEA</pkg> provides an R interface to <a
-	  href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for
-	  Keyphrase Extraction Algorithm) allows for extracting keyphrases from
-	  text documents. It can be either used for free indexing or for indexing
-	  with a controlled vocabulary.
-	</li>
-	<li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as 
-	  extracting words from strings by content rather than by delimiters.
-	  <code>demo("gsubfn-gries")</code> shows an example of this in a natural language 
-	  processing context.
-	</li>
-	<li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
-	 </ul>
+      <h4>Keyword Extraction and General String Manipulation:</h4>
+      <ul>
+        <li>R's base package already provides a rich set of character manipulation
+          routines. See <code>help.search(keyword = "character", package = "base")</code>
+          for more information on these capabilities.
+        </li>
+        <li><pkg>RKEA</pkg> provides an R interface to <a
+          href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for
+          Keyphrase Extraction Algorithm) allows for extracting keyphrases from
+          text documents. It can be either used for free indexing or for indexing
+          with a controlled vocabulary.
+        </li>
+        <li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as 
+          extracting words from strings by content rather than by delimiters.
+          <code>demo("gsubfn-gries")</code> shows an example of this in a natural language 
+          processing context.
+        </li>
+        <li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
+      </ul>
 
       <h4>Natural Language Processing:</h4>
       <ul>
@@ -116,10 +119,15 @@
      text classification. It implements the nine different algorithms (svm, slda,
      boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
      the evaluation of accuracy.
-   </li>
+     </li>
 	<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 	<li><pkg>corpora</pkg>
 	  offers utility functions for the statistical analysis of corpus frequency data.
+	</li>
+	<li><pkg>languageR</pkg>
+	  provides data sets and functions exemplifying statistical methods, and some 
+	  facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical 
+	  Introduction to Statistics Using R", Cambridge University Press, 2008.
 	</li>
 	<li><pkg>zipfR</pkg>
 	  offers some statistical models for word frequency distributions. The
@@ -135,6 +143,7 @@
     <pkg>emu</pkg>
     <pkg>corpora</pkg>
     <pkg>kernlab</pkg>
+    <pkg>languageR</pkg>
     <pkg>lsa</pkg>
     <pkg>openNLP</pkg>
     <pkg>openNLPmodels.en</pkg>
