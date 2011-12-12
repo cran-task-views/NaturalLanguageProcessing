@@ -79,6 +79,10 @@
 	<li><pkg>Rstem</pkg> is an alternative interface to a C version of Porter's word
 	  stemming algorithm.
 	</li>
+	<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), 
+	stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. 
+	In version 0.0-8.0, the documentation is sparse and still needs some help.
+	</li>
       </ul>
 		
       <h4>String Kernels:</h4>
@@ -150,6 +154,7 @@
     <pkg>openNLPmodels.es</pkg>
     <pkg>RWeka</pkg>
     <pkg>Snowball</pkg>
+    <pkg>KoNLP</pkg>
     <pkg priority="core">tm</pkg>
     <pkg>wordnet</pkg>
     <pkg>zipfR</pkg>
