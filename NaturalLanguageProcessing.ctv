@@ -119,6 +119,8 @@
 	  gives a detailed overview and demonstrates the use of the package 
 	  with examples from the are of technology-enhanced learning.
 	</li>
+	<li><pkg>topicmodels</pkg> provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors and the C++ code for fitting LDA models using Gibbs sampling by Xuan-Hieu Phan and co-authors.
+	</li>
 	<li><pkg>RTextTools</pkg> is a machine learning package for automatic
      text classification. It implements the nine different algorithms (svm, slda,
      boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
@@ -140,27 +142,45 @@
       distribution of word frequencies in a population. (The name of this library derives from the
       most famous word frequency distribution, Zipf's law.)
 	</li>
+	<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li> 
+	<li><pkg>TextRegression</pkg> predict valued outputs based on an input matrix and assess predictive power ('the bag-of-words oracle').</li>
+	<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
       </ul>
+
+      <h4>Import filters and Data Handling:</h4>
+      <ul>
+        <li><pkg>tm.plugin.dc</pkg> allows for distributing corpora across storage devices (local files or Hadoop Distributed File System).</li>  
+	<li><pkg>tm.plugin.mail</pkg> helps with importing mail messages from archive files such as used in Thunderbird (mbox, eml).</li>
+
   </info>
 
   <packagelist>
-    <pkg>emu</pkg>
-    <pkg>corpora</pkg>
-    <pkg>kernlab</pkg>
-    <pkg>languageR</pkg>
-    <pkg>lsa</pkg>
-    <pkg>openNLP</pkg>
-    <pkg>openNLPmodels.en</pkg>
-    <pkg>openNLPmodels.es</pkg>
-    <pkg>RWeka</pkg>
-    <pkg>Snowball</pkg>
-    <pkg>KoNLP</pkg>
-    <pkg priority="core">tm</pkg>
-    <pkg>wordnet</pkg>
-    <pkg>zipfR</pkg>
-    <pkg>gsubfn</pkg>
-    <pkg>RKEA</pkg>
-    <pkg>RTextTools</pkg>
+     <pkg>corpora</pkg>
+     <pkg>emu</pkg>
+     <pkg>gsubfn</pkg>
+     <pkg>kernlab</pkg>
+     <pkg>KoNLP</pkg>
+     <pkg>languageR</pkg>
+     <pkg>lsa</pkg>
+     <pkg>maxent</pkg>
+     <pkg>openNLP</pkg>
+     <pkg>openNLPmodels.en</pkg>
+     <pkg>openNLPmodels.es</pkg>
+     <pkg>RKEA</pkg>
+     <pkg>Rstem</pkg>
+     <pkg>RTextTools</pkg>
+     <pkg>RWeka</pkg>
+     <pkg>Snowball</pkg>
+     <pkg>tau</pkg>
+     <pkg>textcat</pkg>
+     <pkg>TextRegression</pkg>
+     <pkg priority="core">tm</pkg>
+     <pkg>tm.plugin.dc</pkg>
+     <pkg>tm.plugin.mail<pkg>
+     <pkg>topicmodels</plg>
+     <pkg>wordcloud</pkg>
+     <pkg>wordnet</pkg>
+     <pkg>zipfR</pkg>
   </packagelist>
 
   <links>
