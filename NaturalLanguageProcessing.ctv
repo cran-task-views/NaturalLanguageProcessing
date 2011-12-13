@@ -106,6 +106,7 @@
 	  techniques for count-based analysis methods, text clustering,
 	  text classification and string kernels.
 	</li>
+	<li><pkg>RcmdrPlugin.TextMining</pkg> adds a new menu TextMining to R-Commander, a graphical user interface for R.</li>
 	<li><pkg>lsa</pkg>
 	  provides routines for performing a latent semantic analysis with R.
 	  The basic idea of latent semantic analysis (LSA) is, 
@@ -151,6 +152,7 @@
       <ul>
         <li><pkg>tm.plugin.dc</pkg> allows for distributing corpora across storage devices (local files or Hadoop Distributed File System).</li>  
 	<li><pkg>tm.plugin.mail</pkg> helps with importing mail messages from archive files such as used in Thunderbird (mbox, eml).</li>
+      </ul>
 
   </info>
 
