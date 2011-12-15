@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2011-12-12</version>
+  <version>2011-12-15</version>
   
   <info>
       <p>This CRAN Task View contains a list of packages useful for natural language processing.</p>
@@ -131,11 +131,6 @@
 	<li><pkg>corpora</pkg>
 	  offers utility functions for the statistical analysis of corpus frequency data.
 	</li>
-	<li><pkg>languageR</pkg>
-	  provides data sets and functions exemplifying statistical methods, and some 
-	  facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical 
-	  Introduction to Statistics Using R", Cambridge University Press, 2008.
-	</li>
 	<li><pkg>zipfR</pkg>
 	  offers some statistical models for word frequency distributions. The
       utilities include functions for loading, manipulating and visualizing word frequency data and
@@ -162,12 +157,12 @@
      <pkg>gsubfn</pkg>
      <pkg>kernlab</pkg>
      <pkg>KoNLP</pkg>
-     <pkg>languageR</pkg>
      <pkg>lsa</pkg>
      <pkg>maxent</pkg>
      <pkg>openNLP</pkg>
      <pkg>openNLPmodels.en</pkg>
      <pkg>openNLPmodels.es</pkg>
+     <pkg>RcmdrPlugin.TextMining</pkg>
      <pkg>RKEA</pkg>
      <pkg>Rstem</pkg>
      <pkg>RTextTools</pkg>
@@ -178,8 +173,8 @@
      <pkg>TextRegression</pkg>
      <pkg priority="core">tm</pkg>
      <pkg>tm.plugin.dc</pkg>
-     <pkg>tm.plugin.mail<pkg>
-     <pkg>topicmodels</plg>
+     <pkg>tm.plugin.mail</pkg>
+     <pkg>topicmodels</pkg>
      <pkg>wordcloud</pkg>
      <pkg>wordnet</pkg>
      <pkg>zipfR</pkg>
@@ -188,6 +183,7 @@
   <links>
     <view>Cluster</view>
     <view>MachineLearning</view>
+    <a href="http://CRAN.R-project.org/src/contrib/Archive/languageR/">Archived CRAN package languageR with data and code for R. H. Baayen: "Analyzing Linguistic Data: a Practical Introduction to Statistics Using R", Cambridge University Press, 2008</a>
     <a href="http://www.cogsci.uni-osnabrueck.de/~severt/SIGIL/index.html">A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)</a>
     <a href="http://wwwpeople.unil.ch/jean-pierre.mueller/archive_ttda.html">ttda: Tools for Textual Data Analysis (Deprecated)</a>
   </links>
