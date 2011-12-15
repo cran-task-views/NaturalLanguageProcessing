@@ -6,12 +6,12 @@
   <version>2011-12-15</version>
   
   <info>
-      <p>This CRAN Task View contains a list of packages useful for natural language processing.</p>
+      <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
       <p>Side-note on text mining: In recent years, we have elaborated a framework to be used in
       packages dealing with the processing of written material: the package <pkg>tm</pkg>.
       Extension packages in this area are highly recommended to interface with tm's basic routines
       and developers are cordially invited to join in the discussion on further developments of this
-      framework pacakge.</p>
+      framework package.</p>
 
       <h4>Phonetics and Speech Processing:</h4>
       <ul>
