@@ -189,7 +189,7 @@
   <links>
     <view>Cluster</view>
     <view>MachineLearning</view>
-    <a href="http://reaktanz.de/?c=hacking&s=koRpus">koRpus: An R Packge for Text Analysis</a>
+    <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">koRpus: An R Packge for Text Analysis</a>
     <a href="http://www.cogsci.uni-osnabrueck.de/~severt/SIGIL/index.html">A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)</a>
     <a href="http://wwwpeople.unil.ch/jean-pierre.mueller/archive_ttda.html">ttda: Tools for Textual Data Analysis (Deprecated)</a>
   </links>
