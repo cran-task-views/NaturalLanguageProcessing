@@ -124,7 +124,7 @@
 	</li>
         <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection,
 hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and
-readability (e.g., Flesch, SMOG, LIX, Dale-Chall). Click <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">here</a> for more information.</a></li> 
+readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li> 
 	<li><pkg>RTextTools</pkg> is a machine learning package for automatic
      text classification. It implements the nine different algorithms (svm, slda,
      boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
