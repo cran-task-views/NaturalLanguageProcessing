@@ -122,6 +122,9 @@
 	</li>
 	<li><pkg>topicmodels</pkg> provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors and the C++ code for fitting LDA models using Gibbs sampling by Xuan-Hieu Phan and co-authors.
 	</li>
+        <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection,
+hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and
+readability (e.g., Flesch, SMOG, LIX, Dale-Chall). Click <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">here</a> for more information.</a></li> 
 	<li><pkg>RTextTools</pkg> is a machine learning package for automatic
      text classification. It implements the nine different algorithms (svm, slda,
      boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
@@ -162,6 +165,7 @@
      <pkg>gsubfn</pkg>
      <pkg>kernlab</pkg>
      <pkg>KoNLP</pkg>
+     <pkg>koRpus</pkg>
      <pkg>languageR</pkg>
      <pkg>lsa</pkg>
      <pkg>maxent</pkg>
@@ -189,7 +193,6 @@
   <links>
     <view>Cluster</view>
     <view>MachineLearning</view>
-    <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">koRpus: An R Packge for Text Analysis</a>
     <a href="http://www.cogsci.uni-osnabrueck.de/~severt/SIGIL/index.html">A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)</a>
     <a href="http://wwwpeople.unil.ch/jean-pierre.mueller/archive_ttda.html">ttda: Tools for Textual Data Analysis (Deprecated)</a>
   </links>
