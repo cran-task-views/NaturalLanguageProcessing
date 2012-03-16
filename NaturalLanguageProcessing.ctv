@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2012-03-07</version>
+  <version>2012-03-16</version>
   
   <info>
       <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
@@ -76,8 +76,8 @@
 	  the <a href="http://snowball.tartarus.org/">Snowball</a>
 	  webpage for details.
 	</li>
-	<li><pkg>Rstem</pkg> is an alternative interface to a C version of Porter's word
-	  stemming algorithm.
+	<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative
+	  interface to a C version of Porter's word stemming algorithm.
 	</li>
 	<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), 
 	stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. 
@@ -174,7 +174,6 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>openNLPmodels.es</pkg>
      <pkg>RcmdrPlugin.TextMining</pkg>
      <pkg>RKEA</pkg>
-     <pkg>Rstem</pkg>
      <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
      <pkg>Snowball</pkg>
@@ -193,6 +192,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
   <links>
     <view>Cluster</view>
     <view>MachineLearning</view>
+    <ohat>Rstem</ohat>
     <a href="http://www.cogsci.uni-osnabrueck.de/~severt/SIGIL/index.html">A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)</a>
     <a href="http://wwwpeople.unil.ch/jean-pierre.mueller/archive_ttda.html">ttda: Tools for Textual Data Analysis (Deprecated)</a>
   </links>
