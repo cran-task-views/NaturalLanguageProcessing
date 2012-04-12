@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2012-04-11</version>
+  <version>2012-04-12</version>
   
   <info>
       <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
@@ -179,7 +179,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>Snowball</pkg>
      <pkg>tau</pkg>
      <pkg>textcat</pkg>
-     <pkg>textir</plk>
+     <pkg>textir</pkg>
      <pkg priority="core">tm</pkg>
      <pkg>tm.plugin.dc</pkg>
      <pkg>tm.plugin.mail</pkg>
