@@ -130,6 +130,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
      the evaluation of accuracy.
      </li>
+	<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 	<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 	<li><pkg>corpora</pkg>
 	  offers utility functions for the statistical analysis of corpus frequency data.
@@ -178,6 +179,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>Snowball</pkg>
      <pkg>tau</pkg>
      <pkg>textcat</pkg>
+     <pkg>textir</plk>
      <pkg priority="core">tm</pkg>
      <pkg>tm.plugin.dc</pkg>
      <pkg>tm.plugin.mail</pkg>
