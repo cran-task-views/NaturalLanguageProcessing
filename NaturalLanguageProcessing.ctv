@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2012-05-13</version>
+  <version>2013-01-28</version>
   
   <info>
       <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
@@ -106,7 +106,6 @@
 	  techniques for count-based analysis methods, text clustering,
 	  text classification and string kernels.
 	</li>
-	<li><pkg>RcmdrPlugin.TextMining</pkg> adds a new menu TextMining to R-Commander, a graphical user interface for R.</li>
 	<li><pkg>lsa</pkg>
 	  provides routines for performing a latent semantic analysis with R.
 	  The basic idea of latent semantic analysis (LSA) is, 
@@ -173,7 +172,6 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>openNLP</pkg>
      <pkg>openNLPmodels.en</pkg>
      <pkg>openNLPmodels.es</pkg>
-     <pkg>RcmdrPlugin.TextMining</pkg>
      <pkg>RKEA</pkg>
      <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
