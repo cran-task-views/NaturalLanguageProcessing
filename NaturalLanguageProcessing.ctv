@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2013-01-28</version>
+  <version>2013-03-23</version>
   
   <info>
       <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
@@ -146,7 +146,6 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
       distribution of word frequencies in a population. (The name of this library derives from the
       most famous word frequency distribution, Zipf's law.)
 	</li>
-	<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li> 
 	<li><pkg>TextRegression</pkg> predict valued outputs based on an input matrix and assess predictive power ('the bag-of-words oracle').</li>
 	<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
       </ul>
@@ -168,7 +167,6 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>koRpus</pkg>
      <pkg>languageR</pkg>
      <pkg>lsa</pkg>
-     <pkg>maxent</pkg>
      <pkg>openNLP</pkg>
      <pkg>openNLPmodels.en</pkg>
      <pkg>openNLPmodels.es</pkg>
