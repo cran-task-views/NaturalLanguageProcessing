@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2013-04-07</version>
+  <version>2013-04-09</version>
   
   <info>
       <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
@@ -124,6 +124,11 @@
         <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection,
 hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and
 readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li> 
+	<li><pkg>RTextTools</pkg> is a machine learning package for automatic
+          text classification. It implements the nine different algorithms (svm, slda,
+          boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
+          the evaluation of accuracy.
+        </li>
 	<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 	<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 	<li><pkg>corpora</pkg>
@@ -168,6 +173,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>openNLPmodels.en</pkg>
      <pkg>openNLPmodels.es</pkg>
      <pkg>RKEA</pkg>
+     <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
      <pkg>Snowball</pkg>
      <pkg>tau</pkg>
