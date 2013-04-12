@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2013-04-09</version>
+  <version>2013-04-12</version>
   
   <info>
       <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
@@ -12,12 +12,6 @@
       Extension packages in this area are highly recommended to interface with tm's basic routines
       and developers are cordially invited to join in the discussion on further developments of this
       framework package.</p>
-
-      <h4>Phonetics and Speech Processing:</h4>
-      <ul>
-	<li><pkg>emu</pkg> is a collection of tools for the creation, manipulation, and analysis of speech databases. At the core of EMU is a database search engine which allows the researcher to find various speech segments based on the sequential and hierarchical structure of the utterances in which they occur. EMU includes an interactive labeller which can display spectrograms and other speech waveforms, and which allows the creation of hierarchical, as well as sequential, labels for a speech utterance.
-	</li>
-      </ul>
 
       <h4>Lexical Databases:</h4>
       <ul>
@@ -161,7 +155,6 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
 
   <packagelist>
      <pkg>corpora</pkg>
-     <pkg>emu</pkg>
      <pkg>gsubfn</pkg>
      <pkg>kernlab</pkg>
      <pkg>KoNLP</pkg>
