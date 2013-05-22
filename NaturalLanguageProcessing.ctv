@@ -1,6 +1,6 @@
 <CRANTaskView>
 
-  <name>nlp</name>
+  <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild</maintainer>
   <version>2013-05-22</version>
