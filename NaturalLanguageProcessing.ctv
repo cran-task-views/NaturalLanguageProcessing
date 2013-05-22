@@ -1,156 +1,67 @@
 <CRANTaskView>
 
-  <name>NaturalLanguageProcessing</name>
+  <name>nlp</name>
   <topic>Natural Language Processing</topic>
-  <maintainer email="f.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2013-04-12</version>
+  <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild</maintainer>
+  <version>2013-05-22</version>
   
   <info>
-      <p>This CRAN task view contains a list of packages useful for natural language processing.</p>
-      <p>Side-note on text mining: In recent years, we have elaborated a framework to be used in
+  
+      <p>Natural language processing has come a long way since its foundations were laid in the 1940s and 50s (for an introduction see, e.g., Jurafsky and Martin (2008): Speech and Language Processing, Pearson Prentice Hall). This CRAN task view collects relevant R packages that support computational linguists in conducting analysis of speech and language on a variety of levels - setting focus on words, syntax, semantics, and pragmatics.</p>
+      
+      <p>In recent years, we have elaborated a framework to be used in
       packages dealing with the processing of written material: the package <pkg>tm</pkg>.
       Extension packages in this area are highly recommended to interface with tm's basic routines
       and developers are cordially invited to join in the discussion on further developments of this
       framework package.</p>
 
-      <h4>Lexical Databases:</h4>
+      <h4>Frameworks:</h4>
+		<ul>
+      	<li><pkg>tm</pkg> provides a comprehensive text mining framework for R. The <a href="http://www.jstatsoft.org/">Journal of Statistical Software</a> article <a href="http://www.jstatsoft.org/v25/i05/">Text Mining Infrastructure in R</a> gives a detailed overview and presents techniques for count-based analysis methods, text clustering, text classification and string kernels.</li>
+         <li><pkg>tm.plugin.dc</pkg> allows for distributing corpora across storage devices (local files or Hadoop Distributed File System).</li>  
+			<li><pkg>tm.plugin.mail</pkg> helps with importing mail messages from archive files such as used in Thunderbird (mbox, eml).</li>
+         <li><pkg>tm.plugin.factiva</pkg> allows importing press/Web corpora from Dow Jones Factiva.</li>
+			<li><pkg>RcmdrPlugin.temis</pkg> is an Rcommander plug-in providing an integrated solution to perform a series of text mining tasks such as importing and cleaning a corpus, and analyses like terms and documents counts, vocabulary tables, terms co-occurrences and documents similarity measures, time series analysis, correspondence analysis and hierarchical clustering.</li>
+			<li><pkg>openNLP</pkg> provides an R interface to <a href="http://opennlp.sourceforge.net/">OpenNLP</a>, a collection of natural language processing tools including a sentence detector, tokenizer, pos-tagger, shallow and full syntactic parser, and named-entity detector, using the Maxent Java package for training and using maximum entropy models.</li>
+			<li><pkg>openNLPmodels.en</pkg> ships trained models for English and <pkg>openNLPmodels.es</pkg> for Spanish to be used with <pkg>openNLP</pkg>.</li>
+			<li><pkg>RWeka</pkg> is a interface to <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> which is a collection of machine learning algorithms for data mining tasks written in Java. Especially useful in the context of natural language processing is its functionality for tokenization and stemming.</li>
+		</ul>
+
+      <h4>Words (lexical DBs, keyword extraction, string manipulation, stemming)</h4>
       <ul>
-	<li><pkg>wordnet</pkg> provides an R interface
-	  to <a href="http://wordnet.princeton.edu/">WordNet</a>, a large
-	  lexical database of English.
-	</li>
+			<li><pkg>wordnet</pkg> provides an R interface to <a href="http://wordnet.princeton.edu/">WordNet</a>, a large lexical database of English.</li>
+			<li>R's base package already provides a rich set of character manipulation routines. See <code>help.search(keyword = "character", package = "base")</code> for more information on these capabilities.</li>
+			<li><pkg>RKEA</pkg> provides an R interface to <a href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for Keyphrase Extraction Algorithm) allows for extracting keyphrases from text documents. It can be either used for free indexing or for indexing with a controlled vocabulary.</li>
+			<li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as extracting words from strings by content rather than by delimiters. <code>demo("gsubfn-gries")</code> shows an example of this in a natural language processing context.</li>
+         <li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
+			<li><pkg>Snowball</pkg> provides the Snowball stemmers which contain the Porter stemmer and several other stemmers for different languages. See the <a href="http://snowball.tartarus.org/">Snowball</a> webpage for details.</li>
+			<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative interface to a C version of Porter's word stemming algorithm.</li>
+			<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. In version 0.0-8.0, the documentation is sparse and still needs some help.</li>
+         <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection, hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li>
+        	<li><pkg>languageR</pkg> provides data sets and functions exemplifying statistical methods, and some facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical Introduction to Statistics Using R", Cambridge University Press, 2008.</li>
+			<li><pkg>zipfR</pkg> offers some statistical models for word frequency distributions. The utilities include functions for loading, manipulating and visualizing word frequency data and vocabulary growth curves. The package also implements several statistical models for the distribution of word frequencies in a population. (The name of this library derives from the most famous word frequency distribution, Zipf's law.)</li>
+			<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li>
+			<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
       </ul>
 
-      <h4>Keyword Extraction and General String Manipulation:</h4>
+      <h4>Semantics:</h4>
       <ul>
-        <li>R's base package already provides a rich set of character manipulation
-          routines. See <code>help.search(keyword = "character", package = "base")</code>
-          for more information on these capabilities.
-        </li>
-        <li><pkg>RKEA</pkg> provides an R interface to <a
-          href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for
-          Keyphrase Extraction Algorithm) allows for extracting keyphrases from
-          text documents. It can be either used for free indexing or for indexing
-          with a controlled vocabulary.
-        </li>
-        <li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as 
-          extracting words from strings by content rather than by delimiters.
-          <code>demo("gsubfn-gries")</code> shows an example of this in a natural language 
-          processing context.
-        </li>
-        <li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
-      </ul>
-
-      <h4>Natural Language Processing:</h4>
-      <ul>
-	<li><pkg>openNLP</pkg> provides an R interface
-	  to <a href="http://opennlp.sourceforge.net/">OpenNLP</a>, a
-	  collection of natural language processing tools including a
-	  sentence detector, tokenizer, pos-tagger, shallow and full
-	  syntactic parser, and named-entity detector, using the Maxent
-	  Java package for training and using maximum entropy
-	  models.
-	</li>
-	<li><pkg>openNLPmodels.en</pkg>
-	  ships trained models for English and 
-	  <pkg>openNLPmodels.es</pkg> for Spanish to be used
-	  with <pkg>openNLP</pkg>.
-	</li>
-	<li><pkg>RWeka</pkg> is a interface
-	  to <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a>
-	  which is a collection of machine learning algorithms for data
-	  mining tasks written in Java. Especially useful in the context
-	  of natural language processing is its functionality for
-	  tokenization and stemming.
-	</li>
-	<li><pkg>Snowball</pkg>
-	  provides the Snowball stemmers which contain the Porter
-	  stemmer and several other stemmers for different
-	  languages. See
-	  the <a href="http://snowball.tartarus.org/">Snowball</a>
-	  webpage for details.
-	</li>
-	<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative
-	  interface to a C version of Porter's word stemming algorithm.
-	</li>
-	<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), 
-	stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. 
-	In version 0.0-8.0, the documentation is sparse and still needs some help.
-	</li>
+	      <li><pkg>lsa</pkg> provides routines for performing a latent semantic analysis with R. The basic idea of latent semantic analysis (LSA) is,  that text do have a higher order (=latent semantic) structure which, 
+ however, is obscured by word usage (e.g. through the use of synonyms  or polysemy). By using conceptual indices that are derived statistically via a truncated singular value decomposition (a two-mode  factor analysis) over a given document-term matrix, this variability problem can be overcome. The article <a href="http://www.springerlink.com/content/g7u377132gq5623g/">Investigating Unstructured Texts with Latent Semantic Analysis</a> gives a detailed overview and demonstrates the use of the package with examples from the are of technology-enhanced learning.</li>
+			<li><pkg>topicmodels</pkg> provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors and the C++ code for fitting LDA models using Gibbs sampling by Xuan-Hieu Phan and co-authors.</li>
+			<li><pkg>kernlab</pkg> allows to create and compute with string kernels, like full string, spectrum, or bounded range string kernels. It can directly use the document format used by <pkg>tm</pkg> as input.</li>
+			<li><pkg>RTextTools</pkg> is a machine learning package for automatic text classification. It implements the nine different algorithms (svm, slda, boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting the evaluation of accuracy.</li>
+			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
+			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
+			<li><pkg>corpora</pkg> offers utility functions for the statistical analysis of corpus frequency data.</li>
+			<li><pkg>TextRegression</pkg> predict valued outputs based on an input matrix and assess predictive power ('the bag-of-words oracle').</li>
       </ul>
 		
-      <h4>String Kernels:</h4>
+      <h4>Pragmatics:</h4>
       <ul>
-	<li><pkg>kernlab</pkg>
-	  allows to create and compute with string kernels, like full string,
-	  spectrum, or bounded range string kernels. It can directly use
-	  the document format used
-	  by <pkg>tm</pkg>
-	  as input.
-	</li>
-      </ul>
-		
-      <h4>Text Mining:</h4>
-      <ul>
-	<li><pkg>tm</pkg>
-	  provides a comprehensive text mining framework for
-	  R. The <a href="http://www.jstatsoft.org/">Journal of Statistical Software</a>
-	  article <a href="http://www.jstatsoft.org/v25/i05/">Text Mining
-	  Infrastructure in R</a> gives a detailed overview and presents
-	  techniques for count-based analysis methods, text clustering,
-	  text classification and string kernels.
-	</li>
-	<li><pkg>lsa</pkg>
-	  provides routines for performing a latent semantic analysis with R.
-	  The basic idea of latent semantic analysis (LSA) is, 
-     that text do have a higher order (=latent semantic) structure which, 
-     however, is obscured by word usage (e.g. through the use of synonyms 
-     or polysemy). By using conceptual indices that are derived statistically 
-     via a truncated singular value decomposition (a two-mode factor analysis) 
-     over a given document-term matrix, this variability problem can be overcome.
-	  The article <a href="http://www.springerlink.com/content/g7u377132gq5623g/">Investigating 
-	  Unstructured Texts with Latent Semantic Analysis</a>
-	  gives a detailed overview and demonstrates the use of the package 
-	  with examples from the are of technology-enhanced learning.
-	</li>
-	<li><pkg>topicmodels</pkg> provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors and the C++ code for fitting LDA models using Gibbs sampling by Xuan-Hieu Phan and co-authors.
-	</li>
-        <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection,
-hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and
-readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li> 
-	<li><pkg>RTextTools</pkg> is a machine learning package for automatic
-          text classification. It implements the nine different algorithms (svm, slda,
-          boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting
-          the evaluation of accuracy.
-        </li>
-	<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
-	<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
-	<li><pkg>corpora</pkg>
-	  offers utility functions for the statistical analysis of corpus frequency data.
-	</li>
-	<li><pkg>languageR</pkg>
-	  provides data sets and functions exemplifying statistical methods, and some 
-	  facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical 
-	  Introduction to Statistics Using R", Cambridge University Press, 2008.
-	</li>
-	<li><pkg>zipfR</pkg>
-	  offers some statistical models for word frequency distributions. The
-      utilities include functions for loading, manipulating and visualizing word frequency data and
-      vocabulary growth curves. The package also implements several statistical models for the
-      distribution of word frequencies in a population. (The name of this library derives from the
-      most famous word frequency distribution, Zipf's law.)
-	</li>
-	<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li> 
-	<li><pkg>TextRegression</pkg> predict valued outputs based on an input matrix and assess predictive power ('the bag-of-words oracle').</li>
-	<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
-      </ul>
-
-      <h4>Import filters and Data Handling:</h4>
-      <ul>
-        <li><pkg>tm.plugin.dc</pkg> allows for distributing corpora across storage devices (local files or Hadoop Distributed File System).</li>  
-	<li><pkg>tm.plugin.mail</pkg> helps with importing mail messages from archive files such as used in Thunderbird (mbox, eml).</li>
-      </ul>
-
+	      <li><pkg>qdap</pkg> helps with quantitative discourse analysis of transcripts.</li>
+		</ul>
+      
   </info>
 
   <packagelist>
@@ -165,6 +76,8 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>openNLP</pkg>
      <pkg>openNLPmodels.en</pkg>
      <pkg>openNLPmodels.es</pkg>
+     <pkg>qdap</pkg>
+     <pkg>RcmdrPlugin.temis</pkg>
      <pkg>RKEA</pkg>
      <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
@@ -175,6 +88,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
      <pkg>TextRegression</pkg>
      <pkg priority="core">tm</pkg>
      <pkg>tm.plugin.dc</pkg>
+     <pkg>tm.plugin.factiva</pkg>
      <pkg>tm.plugin.mail</pkg>
      <pkg>topicmodels</pkg>
      <pkg>wordcloud</pkg>
@@ -186,6 +100,7 @@ readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reakt
     <view>Cluster</view>
     <view>MachineLearning</view>
     <ohat>Rstem</ohat>
+    <a href="http://crunch.kmi.open.ac.uk/w/index.php/Tutorials">The cRunch tutorials</a>
     <a href="http://www.cogsci.uni-osnabrueck.de/~severt/SIGIL/index.html">A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)</a>
     <a href="http://wwwpeople.unil.ch/jean-pierre.mueller/archive_ttda.html">ttda: Tools for Textual Data Analysis (Deprecated)</a>
   </links>
