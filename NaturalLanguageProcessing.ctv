@@ -35,6 +35,7 @@
 			<li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as extracting words from strings by content rather than by delimiters. <code>demo("gsubfn-gries")</code> shows an example of this in a natural language processing context.</li>
          <li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
 			<li><pkg>Snowball</pkg> provides the Snowball stemmers which contain the Porter stemmer and several other stemmers for different languages. See the <a href="http://snowball.tartarus.org/">Snowball</a> webpage for details.</li>
+         <li><pkg>SnowballC</pkg> is a new package with the exact same API as Rstem, but using a slightly different design of the C libstemmer library from the Snowball project. It also supports two more languages.</li>
 			<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative interface to a C version of Porter's word stemming algorithm.</li>
 			<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. In version 0.0-8.0, the documentation is sparse and still needs some help.</li>
          <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection, hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li>
@@ -82,6 +83,7 @@
      <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
      <pkg>Snowball</pkg>
+     <pkg>SnowballC</pkg>
      <pkg>tau</pkg>
      <pkg>textcat</pkg>
      <pkg>textir</pkg>
