@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2013-05-22</version>
+  <version>2013-08-13</version>
   
   <info>
   
@@ -55,7 +55,6 @@
 			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 			<li><pkg>corpora</pkg> offers utility functions for the statistical analysis of corpus frequency data.</li>
-			<li><pkg>TextRegression</pkg> predict valued outputs based on an input matrix and assess predictive power ('the bag-of-words oracle').</li>
       </ul>
 		
       <h4>Pragmatics:</h4>
@@ -87,7 +86,6 @@
      <pkg>tau</pkg>
      <pkg>textcat</pkg>
      <pkg>textir</pkg>
-     <pkg>TextRegression</pkg>
      <pkg priority="core">tm</pkg>
      <pkg>tm.plugin.dc</pkg>
      <pkg>tm.plugin.factiva</pkg>
