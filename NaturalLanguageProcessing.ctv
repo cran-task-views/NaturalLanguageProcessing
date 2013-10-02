@@ -50,7 +50,10 @@
 	      <li><pkg>lsa</pkg> provides routines for performing a latent semantic analysis with R. The basic idea of latent semantic analysis (LSA) is,  that text do have a higher order (=latent semantic) structure which, 
  however, is obscured by word usage (e.g. through the use of synonyms  or polysemy). By using conceptual indices that are derived statistically via a truncated singular value decomposition (a two-mode  factor analysis) over a given document-term matrix, this variability problem can be overcome. The article <a href="http://www.springerlink.com/content/g7u377132gq5623g/">Investigating Unstructured Texts with Latent Semantic Analysis</a> gives a detailed overview and demonstrates the use of the package with examples from the are of technology-enhanced learning.</li>
 			<li><pkg>topicmodels</pkg> provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors and the C++ code for fitting LDA models using Gibbs sampling by Xuan-Hieu Phan and co-authors.</li>
+			<li><pkg>lda</pkg> implements Latent Dirichlet Allocation and related models similar to LSA and topicmodels.</li>
 			<li><pkg>kernlab</pkg> allows to create and compute with string kernels, like full string, spectrum, or bounded range string kernels. It can directly use the document format used by <pkg>tm</pkg> as input.</li>
+			<li><pkg>skmeans</pkg> helps with clustering providing several algorithms for spherical k-means partitioning.</li>
+			<li><pkg>movMF</pkg> provides another clustering alternative (approximations are fitted with von Mises-Fisher distributions of the unit length vectors).</li>
 			<li><pkg>RTextTools</pkg> is a machine learning package for automatic text classification. It implements the nine different algorithms (svm, slda, boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting the evaluation of accuracy.</li>
 			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
@@ -71,14 +74,17 @@
      <pkg>KoNLP</pkg>
      <pkg>koRpus</pkg>
      <pkg>languageR</pkg>
+     <pkg>lda</pkg>
      <pkg>lsa</pkg>
      <pkg>maxent</pkg>
+     <pkg>movMF</pkg>
      <pkg>openNLP</pkg>
      <pkg>qdap</pkg>
      <pkg>RcmdrPlugin.temis</pkg>
      <pkg>RKEA</pkg>
      <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
+     <pkg>skmeans</pkg>
      <pkg>Snowball</pkg>
      <pkg>SnowballC</pkg>
      <pkg>tau</pkg>
