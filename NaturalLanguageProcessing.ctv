@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild</maintainer>
-  <version>2013-09-07</version>
+  <version>2013-10-02</version>
   
   <info>
   
@@ -23,7 +23,7 @@
          <li><pkg>tm.plugin.factiva</pkg> allows importing press/Web corpora from Dow Jones Factiva.</li>
 			<li><pkg>RcmdrPlugin.temis</pkg> is an Rcommander plug-in providing an integrated solution to perform a series of text mining tasks such as importing and cleaning a corpus, and analyses like terms and documents counts, vocabulary tables, terms co-occurrences and documents similarity measures, time series analysis, correspondence analysis and hierarchical clustering.</li>
 			<li><pkg>openNLP</pkg> provides an R interface to <a href="http://opennlp.sourceforge.net/">OpenNLP</a>, a collection of natural language processing tools including a sentence detector, tokenizer, pos-tagger, shallow and full syntactic parser, and named-entity detector, using the Maxent Java package for training and using maximum entropy models.</li>
-			<li>Trained models for English and Spanish to be used with <pkg>openNLP</pkg> are available from <a href="http://datacube.wu.ac.at/">http://datacube.wu.ac.at/</a> as packages openNLPmodels.en and openNLPmodels.es, respectively.</li>
+ 			<li>Trained models for English and Spanish to be used with <pkg>openNLP</pkg> are available from <a href="http://datacube.wu.ac.at/">http://datacube.wu.ac.at/</a> as packages openNLPmodels.en and openNLPmodels.es, respectively.</li>			
 			<li><pkg>RWeka</pkg> is a interface to <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> which is a collection of machine learning algorithms for data mining tasks written in Java. Especially useful in the context of natural language processing is its functionality for tokenization and stemming.</li>
 		</ul>
 
