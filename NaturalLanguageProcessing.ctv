@@ -12,8 +12,8 @@
       <p>In recent years, we have elaborated a framework to be used in
       packages dealing with the processing of written material: the package <pkg>tm</pkg>.
       Extension packages in this area are highly recommended to interface with tm's basic routines
-      and developers are cordially invited to join in the discussion on further developments of this
-      framework package.</p>
+      and useRs are cordially invited to join in the discussion on further developments of this
+      framework package. To get into natural language processing, the <a href="http://cRunch.kmi.open.ac.uk">cRunch service</a> and <a href="http://cRunch.kmi.open.ac.uk/w/index.php/Tutorials">tutorials</a> may be helpful.</p>
 
       <h4>Frameworks:</h4>
 		<ul>
