@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild, Knowledge Media Institute (KMi), The Open University, UK</maintainer>
-  <version>2013-10-11</version>
+  <version>2014-01-01</version>
   
   <info>
   
@@ -53,7 +53,6 @@
 			<li><pkg>kernlab</pkg> allows to create and compute with string kernels, like full string, spectrum, or bounded range string kernels. It can directly use the document format used by <pkg>tm</pkg> as input.</li>
 			<li><pkg>skmeans</pkg> helps with clustering providing several algorithms for spherical k-means partitioning.</li>
 			<li><pkg>movMF</pkg> provides another clustering alternative (approximations are fitted with von Mises-Fisher distributions of the unit length vectors).</li>
-			<li><pkg>RTextTools</pkg> is a machine learning package for automatic text classification. It implements the nine different algorithms (svm, slda, boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting the evaluation of accuracy.</li>
 			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 			<li><pkg>corpora</pkg> offers utility functions for the statistical analysis of corpus frequency data.</li>
@@ -80,7 +79,6 @@
      <pkg>qdap</pkg>
      <pkg>RcmdrPlugin.temis</pkg>
      <pkg>RKEA</pkg>
-     <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
      <pkg>skmeans</pkg>
      <pkg>Snowball</pkg>
