@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild, Knowledge Media Institute (KMi), The Open University, UK</maintainer>
-  <version>2014-01-01</version>
+  <version>2014-03-16</version>
   
   <info>
   
@@ -34,7 +34,7 @@
 			<li><pkg>RKEA</pkg> provides an R interface to <a href="http://www.nzdl.org/Kea/">KEA</a> (Version 5.0). KEA (for Keyphrase Extraction Algorithm) allows for extracting keyphrases from text documents. It can be either used for free indexing or for indexing with a controlled vocabulary.</li>
 			<li><pkg>gsubfn</pkg> can be used for certain parsing tasks such as extracting words from strings by content rather than by delimiters. <code>demo("gsubfn-gries")</code> shows an example of this in a natural language processing context.</li>
          <li><pkg>tau</pkg> contains basic string manipulation and analysis routines needed in text processing such as dealing with character encoding, language, pattern counting, and tokenization.</li>
-			<li><pkg>Snowball</pkg> provides the Snowball stemmers which contain the Porter stemmer and several other stemmers for different languages. See the <a href="http://snowball.tartarus.org/">Snowball</a> webpage for details.</li>
+<!--			<li><pkg>Snowball</pkg> provides the Snowball stemmers which contain the Porter stemmer and several other stemmers for different languages. See the <a href="http://snowball.tartarus.org/">Snowball</a> webpage for details.</li> -->
          <li><pkg>SnowballC</pkg> provides exactly the same API as Rstem, but uses a slightly different design of the C libstemmer library from the Snowball project. It also supports two more languages.</li>
 			<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative interface to a C version of Porter's word stemming algorithm.</li>
 			<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. In version 0.0-8.0, the documentation is sparse and still needs some help.</li>
@@ -46,8 +46,7 @@
 
       <h4>Semantics:</h4>
       <ul>
-	      <li><pkg>lsa</pkg> provides routines for performing a latent semantic analysis with R. The basic idea of latent semantic analysis (LSA) is,  that text do have a higher order (=latent semantic) structure which, 
- however, is obscured by word usage (e.g. through the use of synonyms  or polysemy). By using conceptual indices that are derived statistically via a truncated singular value decomposition (a two-mode  factor analysis) over a given document-term matrix, this variability problem can be overcome. The article <a href="http://www.springerlink.com/content/g7u377132gq5623g/">Investigating Unstructured Texts with Latent Semantic Analysis</a> gives a detailed overview and demonstrates the use of the package with examples from the are of technology-enhanced learning.</li>
+<!--	      <li><pkg>lsa</pkg> provides routines for performing a latent semantic analysis with R. The basic idea of latent semantic analysis (LSA) is,  that text do have a higher order (=latent semantic) structure which, however, is obscured by word usage (e.g. through the use of synonyms  or polysemy). By using conceptual indices that are derived statistically via a truncated singular value decomposition (a two-mode  factor analysis) over a given document-term matrix, this variability problem can be overcome. The article <a href="http://www.springerlink.com/content/g7u377132gq5623g/">Investigating Unstructured Texts with Latent Semantic Analysis</a> gives a detailed overview and demonstrates the use of the package with examples from the are of technology-enhanced learning.</li> -->
 			<li><pkg>topicmodels</pkg> provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors and the C++ code for fitting LDA models using Gibbs sampling by Xuan-Hieu Phan and co-authors.</li>
 			<li><pkg>lda</pkg> implements Latent Dirichlet Allocation and related models similar to LSA and topicmodels.</li>
 			<li><pkg>kernlab</pkg> allows to create and compute with string kernels, like full string, spectrum, or bounded range string kernels. It can directly use the document format used by <pkg>tm</pkg> as input.</li>
@@ -72,7 +71,6 @@
      <pkg>KoNLP</pkg>
      <pkg>koRpus</pkg>
      <pkg>lda</pkg>
-     <pkg>lsa</pkg>
      <pkg>maxent</pkg>
      <pkg>movMF</pkg>
      <pkg>openNLP</pkg>
@@ -81,7 +79,6 @@
      <pkg>RKEA</pkg>
      <pkg>RWeka</pkg>
      <pkg>skmeans</pkg>
-     <pkg>Snowball</pkg>
      <pkg>SnowballC</pkg>
      <pkg>tau</pkg>
      <pkg>textcat</pkg>
