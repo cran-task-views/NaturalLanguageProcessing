@@ -18,9 +18,10 @@
       <h4>Frameworks:</h4>
 		<ul>
       	<li><pkg>tm</pkg> provides a comprehensive text mining framework for R. The <a href="http://www.jstatsoft.org/">Journal of Statistical Software</a> article <a href="http://www.jstatsoft.org/v25/i05/">Text Mining Infrastructure in R</a> gives a detailed overview and presents techniques for count-based analysis methods, text clustering, text classification and string kernels.</li>
-         <li><pkg>tm.plugin.dc</pkg> allows for distributing corpora across storage devices (local files or Hadoop Distributed File System).</li>  
-			<li><pkg>tm.plugin.mail</pkg> helps with importing mail messages from archive files such as used in Thunderbird (mbox, eml).</li>
-         <li><pkg>tm.plugin.factiva</pkg> allows importing press/Web corpora from Dow Jones Factiva.</li>
+        <li><pkg>tm.plugin.dc</pkg> allows for distributing corpora across storage devices (local files or Hadoop Distributed File System).</li>  
+        <li><pkg>tm.plugin.mail</pkg> helps with importing mail messages from archive files such as used in Thunderbird (mbox, eml).</li>
+        <li><pkg>tm.plugin.alceste</pkg> allows importing text corpora written in a file in the Alceste format.</li>
+         <li><pkg>tm.plugin.factiva</pkg>, <pkg>tm.plugin.lexisnexis</pkg>, <pkg>tm.plugin.europresse</pkg> allow importing press and Web corpora from (respectively) Dow Jones Factiva, LexisNexis, and Europresse.</li>
 			<li><pkg>RcmdrPlugin.temis</pkg> is an Rcommander plug-in providing an integrated solution to perform a series of text mining tasks such as importing and cleaning a corpus, and analyses like terms and documents counts, vocabulary tables, terms co-occurrences and documents similarity measures, time series analysis, correspondence analysis and hierarchical clustering.</li>
 			<li><pkg>openNLP</pkg> provides an R interface to <a href="http://opennlp.sourceforge.net/">OpenNLP</a>, a collection of natural language processing tools including a sentence detector, tokenizer, pos-tagger, shallow and full syntactic parser, and named-entity detector, using the Maxent Java package for training and using maximum entropy models.</li>
  			<li>Trained models for English and Spanish to be used with <pkg>openNLP</pkg> are available from <a href="http://datacube.wu.ac.at/">http://datacube.wu.ac.at/</a> as packages openNLPmodels.en and openNLPmodels.es, respectively.</li>			
@@ -84,8 +85,11 @@
      <pkg>textcat</pkg>
      <pkg>textir</pkg>
      <pkg priority="core">tm</pkg>
+     <pkg>tm.plugin.alceste</pkg>
      <pkg>tm.plugin.dc</pkg>
+     <pkg>tm.plugin.europresse</pkg>
      <pkg>tm.plugin.factiva</pkg>
+     <pkg>tm.plugin.lexisnexis</pkg>
      <pkg>tm.plugin.mail</pkg>
      <pkg>topicmodels</pkg>
      <pkg>wordcloud</pkg>
