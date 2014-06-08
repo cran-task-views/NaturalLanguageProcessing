@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="fridolin.wild@open.ac.uk">Fridolin Wild, Knowledge Media Institute (KMi), The Open University, UK</maintainer>
-  <version>2014-03-16</version>
+  <version>2014-06-08</version>
   
   <info>
   
@@ -42,6 +42,7 @@
 			<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative interface to a C version of Porter's word stemming algorithm.</li>
 			<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. In version 0.0-8.0, the documentation is sparse and still needs some help.</li>
          <li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection, hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li>
+        	<li><pkg>languageR</pkg> provides data sets and functions exemplifying statistical methods, and some facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical Introduction to Statistics Using R", Cambridge University Press, 2008.</li>
 			<li><pkg>zipfR</pkg> offers some statistical models for word frequency distributions. The utilities include functions for loading, manipulating and visualizing word frequency data and vocabulary growth curves. The package also implements several statistical models for the distribution of word frequencies in a population. (The name of this library derives from the most famous word frequency distribution, Zipf's law.)</li>
 			<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li>
 			<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
@@ -55,6 +56,7 @@
 			<li><pkg>kernlab</pkg> allows to create and compute with string kernels, like full string, spectrum, or bounded range string kernels. It can directly use the document format used by <pkg>tm</pkg> as input.</li>
 			<li><pkg>skmeans</pkg> helps with clustering providing several algorithms for spherical k-means partitioning.</li>
 			<li><pkg>movMF</pkg> provides another clustering alternative (approximations are fitted with von Mises-Fisher distributions of the unit length vectors).</li>
+			<li><pkg>RTextTools</pkg> is a machine learning package for automatic text classification. It implements the nine different algorithms (svm, slda, boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting the evaluation of accuracy.</li>
 			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 			<li><pkg>corpora</pkg> offers utility functions for the statistical analysis of corpus frequency data.</li>
@@ -74,6 +76,7 @@
      <pkg>kernlab</pkg>
      <pkg>KoNLP</pkg>
      <pkg>koRpus</pkg>
+     <pkg>languageR</pkg>
      <pkg>lda</pkg>
      <pkg>lsa</pkg>
      <pkg>maxent</pkg>
@@ -82,6 +85,7 @@
      <pkg>qdap</pkg>
      <pkg>RcmdrPlugin.temis</pkg>
      <pkg>RKEA</pkg>
+     <pkg>RTextTools</pkg>
      <pkg>RWeka</pkg>
      <pkg>skmeans</pkg>
      <pkg>SnowballC</pkg>
