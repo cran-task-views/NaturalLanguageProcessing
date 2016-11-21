@@ -53,7 +53,7 @@
 			<li><pkg>hunspell</pkg> is a stemmer and spell-checker library designed for languages with rich morphology and complex word compounding or character encoding. The package can check and analyze individual words as well as search for incorrect words within a text, latex or (R package) manual document.</li>
 			<li><pkg>PGRdup</pkg> supports fuzzy, phonetic and semantic matching of words. In particular, the DoubleMetaphone function converts strings to double metaphone phonetic codes.</li>
 			<li><pkg>phonics</pkg> provides a collection of phonetic algorithms including Soundex, Metaphone, NYSIIS, Caverphone, and others.</li>
-			<li><pkg>tesseract</pkg>is an OCR engine with unicode (UTF-8) support that can recognize over 100 languages out of the box.</li>
+			<li><pkg>tesseract</pkg> is an OCR engine with unicode (UTF-8) support that can recognize over 100 languages out of the box.</li>
 			<li><pkg>mscsweblm4r</pkg> provides an interface to the Microsoft Cognitive Services Web Language Model API and can be used to calculate the probability for a sequence of words to appear together, the conditional probability that a specific word will follow an existing sequence of words, get the list of words (completions) most likely to follow a given sequence of words, and insert spaces into a string of words adjoined together without any spaces (hashtags, URLs, etc.).</li>
 			<li><pkg>mscstexta4r</pkg> provides an interface to the Microsoft Cognitive Services Text Analytics API and can be used to perform sentiment analysis, topic detection, language detection, and key phrase extraction.</li> 
       </ul>
@@ -76,7 +76,7 @@
       <h4>Pragmatics:</h4>
       <ul>
 	      <li><pkg>qdap</pkg> helps with quantitative discourse analysis of transcripts.</li>
-		<li><pkg>quanteda</pkg> supports quantitative analysis of textual data</li>
+		<li><pkg>quanteda</pkg> supports quantitative analysis of textual data.</li>
 		</ul>
 	<h4>Corpora:</h4>
 	<ul>
