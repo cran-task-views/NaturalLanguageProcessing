@@ -27,6 +27,8 @@
 			<li><pkg>openNLP</pkg> provides an R interface to <a href="http://opennlp.sourceforge.net/">OpenNLP</a>, a collection of natural language processing tools including a sentence detector, tokenizer, pos-tagger, shallow and full syntactic parser, and named-entity detector, using the Maxent Java package for training and using maximum entropy models.</li>
  			<li>Trained models for English and Spanish to be used with <pkg>openNLP</pkg> are available from <a href="http://datacube.wu.ac.at/">http://datacube.wu.ac.at/</a> as packages openNLPmodels.en and openNLPmodels.es, respectively.</li>			
 			<li><pkg>RWeka</pkg> is a interface to <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> which is a collection of machine learning algorithms for data mining tasks written in Java. Especially useful in the context of natural language processing is its functionality for tokenization and stemming.</li>
+			<li><pkg>tidytext</pkg> provides means for text mining for word processing and sentiment analysis using dplyr, ggplot2, and other tidy tools.</li>
+			<li><pkg>monkeylearn</pkg> provides a wrapper interface to machine learning services on Monkeylearn for text analysis, i.e., classification and extraction.</li>
 		</ul>
 
       <h4>Words (lexical DBs, keyword extraction, string manipulation, stemming)</h4>
@@ -48,6 +50,12 @@
 			<li><pkg>zipfR</pkg> offers some statistical models for word frequency distributions. The utilities include functions for loading, manipulating and visualizing word frequency data and vocabulary growth curves. The package also implements several statistical models for the distribution of word frequencies in a population. (The name of this library derives from the most famous word frequency distribution, Zipf's law.)</li>
 			<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li>
 			<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
+			<li><pkg>Hunspell</pkg> is a stemmer and spell-checker library designed for languages with rich morphology and complex word compounding or character encoding. The package can check and analyze individual words as well as search for incorrect words within a text, latex or (R package) manual document.</li>
+			<li><pkg>PGRdup</pkg> supports fuzzy, phonetic and semantic matching of words. In particular, the DoubleMetaphone function converts strings to double metaphone phonetic codes.</li>
+			<li><pkg>phonics</pkg> provides a collection of phonetic algorithms including Soundex, Metaphone, NYSIIS, Caverphone, and others.</li>
+			<li><pkg>tesseract</pkg>is an OCR engine with unicode (UTF-8) support that can recognize over 100 languages out of the box.</li>
+			<li><pkg>mscsweblm4r</pkg> provides an interface to the Microsoft Cognitive Services Web Language Model API and can be used to calculate the probability for a sequence of words to appear together, the conditional probability that a specific word will follow an existing sequence of words, get the list of words (completions) most likely to follow a given sequence of words, and insert spaces into a string of words adjoined together without any spaces (hashtags, URLs, etc.).</li>
+			<li><pkg>mscstexta4r</pkg> provides an interface to the Microsoft Cognitive Services Text Analytics API and can be used to perform sentiment analysis, topic detection, language detection, and key phrase extraction.</li> 
       </ul>
 
       <h4>Semantics:</h4>
@@ -62,13 +70,18 @@
 			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
 			<li><pkg>corpora</pkg> offers utility functions for the statistical analysis of corpus frequency data.</li>
+			<li><pkg>text2vec</pkg> provides tools for text vectorization, topic modeling (LDA, LSA), word embeddings (GloVe), and similarities.</li>
       </ul>
 		
       <h4>Pragmatics:</h4>
       <ul>
 	      <li><pkg>qdap</pkg> helps with quantitative discourse analysis of transcripts.</li>
+		<li><pkg>quanteda</pkg> supports quantitative analysis of textual data</li>
 		</ul>
-      
+	<h4>Corpora:</h4>
+	<ul>
+		<li><pkg>gutenbergr</pkg> allows downloading and processing public domain works in the Project Gutenberg collection. Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.</li>
+	</ul> 
   </info>
 
   <packagelist>
