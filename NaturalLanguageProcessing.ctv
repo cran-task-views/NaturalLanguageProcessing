@@ -50,7 +50,7 @@
 			<li><pkg>zipfR</pkg> offers some statistical models for word frequency distributions. The utilities include functions for loading, manipulating and visualizing word frequency data and vocabulary growth curves. The package also implements several statistical models for the distribution of word frequencies in a population. (The name of this library derives from the most famous word frequency distribution, Zipf's law.)</li>
 			<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li>
 			<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
-			<li><pkg>Hunspell</pkg> is a stemmer and spell-checker library designed for languages with rich morphology and complex word compounding or character encoding. The package can check and analyze individual words as well as search for incorrect words within a text, latex or (R package) manual document.</li>
+			<li><pkg>hunspell</pkg> is a stemmer and spell-checker library designed for languages with rich morphology and complex word compounding or character encoding. The package can check and analyze individual words as well as search for incorrect words within a text, latex or (R package) manual document.</li>
 			<li><pkg>PGRdup</pkg> supports fuzzy, phonetic and semantic matching of words. In particular, the DoubleMetaphone function converts strings to double metaphone phonetic codes.</li>
 			<li><pkg>phonics</pkg> provides a collection of phonetic algorithms including Soundex, Metaphone, NYSIIS, Caverphone, and others.</li>
 			<li><pkg>tesseract</pkg>is an OCR engine with unicode (UTF-8) support that can recognize over 100 languages out of the box.</li>
@@ -88,6 +88,8 @@
      <pkg>boilerpipeR</pkg>
      <pkg>corpora</pkg>
      <pkg>gsubfn</pkg>
+     <pkg>gutenbergr</pkg>
+     <pkg>hunspell</pkg>
      <pkg>kernlab</pkg>
      <pkg>KoNLP</pkg>
      <pkg>koRpus</pkg>
@@ -95,8 +97,14 @@
      <pkg>lda</pkg>
      <pkg>lsa</pkg>
      <pkg>maxent</pkg>
+     <pkg>mscstexta4r</pkg>
+     <pkg>mscsweblm4r</pkg>
+     <pkg>monkeylearn</pkg>
      <pkg>movMF</pkg>
      <pkg>openNLP</pkg>
+     <pkg>PGRdup</pkg>
+     <pkg>phonics</pkg>
+     <pkg>quanteda</pkg>
      <pkg>qdap</pkg>
      <pkg>RcmdrPlugin.temis</pkg>
      <pkg>RKEA</pkg>
@@ -106,9 +114,12 @@
      <pkg>SnowballC</pkg>
      <pkg>stringi</pkg>
      <pkg>tau</pkg>
+     <pkg>tesseract</pkg>
+     <pkg>text2vec</pkg>
      <pkg>textcat</pkg>
      <pkg>textir</pkg>
      <pkg>textreuse</pkg>
+     <pkg>tidytext</pkg>
      <pkg priority="core">tm</pkg>
      <pkg>tm.plugin.alceste</pkg>
      <pkg>tm.plugin.dc</pkg>
