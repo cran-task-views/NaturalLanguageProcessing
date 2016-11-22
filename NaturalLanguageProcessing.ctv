@@ -55,7 +55,8 @@
 			<li><pkg>phonics</pkg> provides a collection of phonetic algorithms including Soundex, Metaphone, NYSIIS, Caverphone, and others.</li>
 			<li><pkg>tesseract</pkg> is an OCR engine with unicode (UTF-8) support that can recognize over 100 languages out of the box.</li>
 			<li><pkg>mscsweblm4r</pkg> provides an interface to the Microsoft Cognitive Services Web Language Model API and can be used to calculate the probability for a sequence of words to appear together, the conditional probability that a specific word will follow an existing sequence of words, get the list of words (completions) most likely to follow a given sequence of words, and insert spaces into a string of words adjoined together without any spaces (hashtags, URLs, etc.).</li>
-			<li><pkg>mscstexta4r</pkg> provides an interface to the Microsoft Cognitive Services Text Analytics API and can be used to perform sentiment analysis, topic detection, language detection, and key phrase extraction.</li> 
+			<li><pkg>mscstexta4r</pkg> provides an interface to the Microsoft Cognitive Services Text Analytics API and can be used to perform sentiment analysis, topic detection, language detection, and key phrase extraction.</li>
+			<li><pkg>tokenizers</pkg> helps split text into tokens, supporting shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, lines, and regular expressions.</li> 
       </ul>
 
       <h4>Semantics:</h4>
