@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="wild@brookes.ac.uk">Fridolin Wild, Performance Augmentation Lab (PAL, Department of Computing and Communications Technologies, Oxford Brookes University, UK</maintainer>
-  <version>2016-11-22</version>
+  <version>2016-12-01</version>
   
   <info>
   
@@ -129,6 +129,7 @@
      <pkg>tm.plugin.lexisnexis</pkg>
      <pkg>tm.plugin.mail</pkg>
      <pkg>tm.plugin.webmining</pkg>
+     <pkg>tokenizers</pkg>
      <pkg>topicmodels</pkg>
      <pkg>wordcloud</pkg>
      <pkg>wordnet</pkg>
