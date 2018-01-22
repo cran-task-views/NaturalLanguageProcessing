@@ -29,6 +29,7 @@
 			<li><pkg>RWeka</pkg> is a interface to <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> which is a collection of machine learning algorithms for data mining tasks written in Java. Especially useful in the context of natural language processing is its functionality for tokenization and stemming.</li>
 			<li><pkg>tidytext</pkg> provides means for text mining for word processing and sentiment analysis using dplyr, ggplot2, and other tidy tools.</li>
 			<li><pkg>monkeylearn</pkg> provides a wrapper interface to machine learning services on Monkeylearn for text analysis, i.e., classification and extraction.</li>
+	<li><pkg>udpipe</pkg> provides language-independant tokenization, part of speech tagging, lemmatization, dependency parsing, and training of treebank-based annotation models.</li>
 		</ul>
 
       <h4>Words (lexical DBs, keyword extraction, string manipulation, stemming)</h4>
@@ -73,6 +74,7 @@
 			<li><pkg>RTextTools</pkg> is a machine learning package for automatic text classification. It implements the nine different algorithms (svm, slda, boosting, bagging, rf, glmnet, tree, nnet, and maxent) and routines supporting the evaluation of accuracy.</li>
 			<li><pkg>textir</pkg> is a suite of tools for text and sentiment mining.</li>
 			<li><pkg>textcat</pkg> provides support for n-gram based text categorization.</li>
+			<li><pkg>textrank</pkg> is an extension of the PageRank and allows to summarize text by calculating how sentences are related to one another.</li>
 			<li><pkg>corpora</pkg> offers utility functions for the statistical analysis of corpus frequency data.</li>
 			<li><pkg>text2vec</pkg> provides tools for text vectorization, topic modeling (LDA, LSA), word embeddings (GloVe), and similarities.</li>
       </ul>
@@ -133,6 +135,7 @@
      <pkg>text2vec</pkg>
      <pkg>textcat</pkg>
      <pkg>textir</pkg>
+     <pkg>textrank</pkg>
      <pkg>textreuse</pkg>
      <pkg>tidytext</pkg>
      <pkg priority="core">tm</pkg>
@@ -145,6 +148,7 @@
      <pkg>tm.plugin.webmining</pkg>
      <pkg>tokenizers</pkg>
      <pkg>topicmodels</pkg>
+     <pkg>udpipe</pkg>
      <pkg>wordcloud</pkg>
      <pkg>wordnet</pkg>
      <pkg>zipfR</pkg>
