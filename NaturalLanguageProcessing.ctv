@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="wild@brookes.ac.uk">Fridolin Wild, Performance Augmentation Lab (PAL, Department of Computing and Communications Technologies, Oxford Brookes University, UK</maintainer>
-  <version>2017-11-29</version>
+  <version>2019-03-07</version>
   
   <info>
   
@@ -52,7 +52,6 @@
 			<li><pkg>ore</pkg>provides an alternative to R's built-in functionality for handling regular expressions, based on the Onigmo Regular Expression Library. Offers first-class compiled regex objects, partial matching and function-based substitutions, amongst other features. A benchmark comparing results for ore functions with stringi and the R base implementation is available <github>jonclayden/regex-performance</github>.</li>
 			<li><pkg>languageR</pkg> provides data sets and functions exemplifying statistical methods, and some facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical Introduction to Statistics Using R", Cambridge University Press, 2008.</li>
 			<li><pkg>zipfR</pkg> offers some statistical models for word frequency distributions. The utilities include functions for loading, manipulating and visualizing word frequency data and vocabulary growth curves. The package also implements several statistical models for the distribution of word frequencies in a population. (The name of this library derives from the most famous word frequency distribution, Zipf's law.)</li>
-			<li><pkg>maxent</pkg> is an implementation of maxinum entropy minimising memory consumption of very large data-sets.</li>
 			<li><pkg>wordcloud</pkg> provides a visualisation similar to the famous wordle ones: it horizontally and vertically distributes features in a pleasing visualisation with the font size scaled by frequency.</li>
 			<li><pkg>hunspell</pkg> is a stemmer and spell-checker library designed for languages with rich morphology and complex word compounding or character encoding. The package can check and analyze individual words as well as search for incorrect words within a text, latex or (R package) manual document.</li>
 			<li><pkg>phonics</pkg> provides a collection of phonetic algorithms including Soundex, Metaphone, NYSIIS, Caverphone, and others.</li>
@@ -109,7 +108,6 @@
      <pkg>languageR</pkg>
      <pkg>lda</pkg>
      <pkg>lsa</pkg>
-     <pkg>maxent</pkg>
      <pkg>mscstexta4r</pkg>
      <pkg>mscsweblm4r</pkg>
      <pkg>monkeylearn</pkg>
