@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="wild@brookes.ac.uk">Fridolin Wild, Performance Augmentation Lab (PAL, Department of Computing and Communications Technologies, Oxford Brookes University, UK</maintainer>
-  <version>2020-01-17</version>
+  <version>2020-02-02</version>
   
   <info>
   
@@ -46,7 +46,6 @@
                         <li><pkg>stringi</pkg> provides R language wrappers to the International Components for Unicode (ICU) library and allows for: conversion of text encodings, string searching and collation in any locale, Unicode normalization of text, handling texts with mixed reading direction (e.g., left to right and right to left), and text boundary analysis (for tokenizing on different aggregation levels or to identify suitable line wrapping locations).</li>
 			<li><pkg>stringdist</pkg> implements an approximate string matching version of R's native 'match' function. It can calculate various string distances based on edits (Damerau-Levenshtein, Hamming, Levenshtein, optimal string alignment), qgrams (q-gram, cosine, jaccard distance) or heuristic metrics (Jaro, Jaro-Winkler). An implementation of soundex is provided as well. Distances can be computed between character vectors while taking proper care of encoding or between integer vectors representing generic sequences.</li>
 			<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative interface to a C version of Porter's word stemming algorithm.</li>
-			<li><pkg>KoNLP</pkg> provides a collection of conversion routines (e.g. Hangul to Jamos), stemming, and part of speech tagging through interfacing with the Lucene's HanNanum analyzer. In version 0.0-8.0, the documentation is sparse and still needs some help.</li>
 			<li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection, hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li>
 			<li><pkg>alineR</pkg> helps calculate the phonetic distance between words (the 'ALINE' distance). The score is based on phonetic featuers represented with the Unicode-compliant International Phonetic Alphabet (IPA). Parameterized features weights are used to determine the optimal alignment and functions are provided to estimate optimum values using a genetic algorithm and supervised learning.</li>
 			<li><pkg>ore</pkg>provides an alternative to R's built-in functionality for handling regular expressions, based on the Onigmo Regular Expression Library. Offers first-class compiled regex objects, partial matching and function-based substitutions, amongst other features. A benchmark comparing results for ore functions with stringi and the R base implementation is available <github>jonclayden/regex-performance</github>.</li>
@@ -109,7 +108,6 @@
      <pkg>gutenbergr</pkg>
      <pkg>hunspell</pkg>
      <pkg>kernlab</pkg>
-     <pkg>KoNLP</pkg>
      <pkg>koRpus</pkg>
      <pkg>languageR</pkg>
      <pkg>lda</pkg>
