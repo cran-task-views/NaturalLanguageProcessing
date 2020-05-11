@@ -70,7 +70,7 @@
 			<li><pkg>lda</pkg> implements Latent Dirichlet Allocation and related models similar to LSA and topicmodels.</li>
 			<li><pkg>stm</pkg> (Structural Topic Model) implements a topic model derivate that can include document-level meta-data. The package also includes tools for model selection, visualization, and estimation of topic-covariate regressions.</li>
 			<li><pkg>kernlab</pkg> allows to create and compute with string kernels, like full string, spectrum, or bounded range string kernels. It can directly use the document format used by <pkg>tm</pkg> as input.</li>
-			<li><github>bnosac/golgotha</github> provides a wrapper to Bidirectional Encoder Representations from Transformers (BERT) for language modelling and textual entailment in particular.</li>
+			<li><github>bnosac/golgotha</github> (not yet on CARN) provides a wrapper to Bidirectional Encoder Representations from Transformers (BERT) for language modelling and textual entailment in particular.</li>
 			<li><pkg>ruimtehol</pkg> provides a neural network machine learning approach to vector space semantics, implementing an interface to StarSpace, providing means for classification, proximity measurement, and model management (training, predicting, several interfaces for textual entailment of varying granularity).</li>
 			<li><pkg>skmeans</pkg> helps with clustering providing several algorithms for spherical k-means partitioning.</li>
 			<li><pkg>movMF</pkg> provides another clustering alternative (approximations are fitted with von Mises-Fisher distributions of the unit length vectors).</li>
@@ -108,7 +108,6 @@
      <pkg>corpora</pkg>
      <pkg>corporaexplorer</pkg>
      <pkg>crfsuite</pkg>
-     <pkg>golgotha</pkg>
      <pkg>gsubfn</pkg>
      <pkg>gutenbergr</pkg>
      <pkg>hunspell</pkg>
