@@ -56,6 +56,7 @@
 			<li><pkg>tesseract</pkg> is an OCR engine with unicode (UTF-8) support that can recognize over 100 languages out of the box.</li>
 			<li><pkg>mscsweblm4r</pkg> provides an interface to the Microsoft Cognitive Services Web Language Model API and can be used to calculate the probability for a sequence of words to appear together, the conditional probability that a specific word will follow an existing sequence of words, get the list of words (completions) most likely to follow a given sequence of words, and insert spaces into a string of words adjoined together without any spaces (hashtags, URLs, etc.).</li>
 			<li><pkg>mscstexta4r</pkg> provides an interface to the Microsoft Cognitive Services Text Analytics API and can be used to perform sentiment analysis, topic detection, language detection, and key phrase extraction.</li>
+			<li><github>bnosac/sentencepiece</github> (available from github) is an unsupervised tokeniser producing Byte Pair Encoding (BPE), Unigram, Char, or Word models.</li>
 			<li><pkg>tokenizers</pkg> helps split text into tokens, supporting shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, lines, and regular expressions.</li> 
 			<li><pkg>tokenizers.bpe</pkg> helps split text into syllable tokens, implemented using Byte Pair Encoding and the YouTokenToMe library.</li>
 			<li><pkg>crfsuite</pkg> uses Conditional Random Fields for labelling sequential data.</li>
@@ -95,6 +96,7 @@
 	<h4>Corpora:</h4>
 	<ul>
 		<li><pkg>corporaexplorer</pkg> facilitates visual information retrieval over document collections, supporting filtering and corpus-level as well as document-level visualisation using an interactive web apps built using Shiny.</li>
+		<li><pkg>textplot</pkg> provides various methods for corpus-, document-, and sentence-level visualisation.</li>
 		<li><pkg>gutenbergr</pkg> allows downloading and processing public domain works in the Project Gutenberg collection. Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.</li>
 		<li><pkg>tm.plugin.factiva</pkg>, <pkg>tm.plugin.lexisnexis</pkg>, <pkg>tm.plugin.europresse</pkg> allow importing press and Web corpora from (respectively) Dow Jones Factiva, LexisNexis, and Europresse.</li>
 		<li><pkg>LexisNexisTools</pkg> helps filing in and handling of news corpora in the LexisNexis text file format, interfacing with tidytext, tm, and quanteda.</li>
@@ -141,6 +143,7 @@
      <pkg>text2vec</pkg>
      <pkg>textcat</pkg>
      <pkg>textir</pkg>
+     <pkg>textplot</pkg>
      <pkg>textrank</pkg>
      <pkg>textreuse</pkg>
      <pkg>tidytext</pkg>
