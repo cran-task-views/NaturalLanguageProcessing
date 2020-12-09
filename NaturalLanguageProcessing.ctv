@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="wild@brookes.ac.uk">Fridolin Wild, Performance Augmentation Lab (PAL), Oxford Brookes University, UK</maintainer>
-  <version>2020-09-11</version>
+  <version>2020-12-09</version>
   
   <info>
   
@@ -27,7 +27,6 @@
  			<li>Trained models for English and Spanish to be used with <pkg>openNLP</pkg> are available from <a href="http://datacube.wu.ac.at/">http://datacube.wu.ac.at/</a> as packages openNLPmodels.en and openNLPmodels.es, respectively.</li>			
 			<li><pkg>RWeka</pkg> is a interface to <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> which is a collection of machine learning algorithms for data mining tasks written in Java. Especially useful in the context of natural language processing is its functionality for tokenization and stemming.</li>
 			<li><pkg>tidytext</pkg> provides means for text mining for word processing and sentiment analysis using dplyr, ggplot2, and other tidy tools.</li>
-			<li><pkg>monkeylearn</pkg> provides a wrapper interface to machine learning services on Monkeylearn for text analysis, i.e., classification and extraction.</li>
 	<li><pkg>udpipe</pkg> provides language-independant tokenization, part of speech tagging, lemmatization, dependency parsing, and training of treebank-based annotation models.</li>
 		</ul>
 
@@ -119,7 +118,6 @@
      <pkg>lsa</pkg>
      <pkg>mscstexta4r</pkg>
      <pkg>mscsweblm4r</pkg>
-     <pkg>monkeylearn</pkg>
      <pkg>movMF</pkg>
      <pkg>openNLP</pkg>
      <pkg>phonics</pkg>
