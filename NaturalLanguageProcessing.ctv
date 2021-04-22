@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="wild@brookes.ac.uk">Fridolin Wild, Performance Augmentation Lab (PAL), Oxford Brookes University, UK</maintainer>
-  <version>2020-12-09</version>
+  <version>2021-04-22</version>
   
   <info>
   
@@ -45,7 +45,6 @@
 			<li><pkg>stringdist</pkg> implements an approximate string matching version of R's native 'match' function. It can calculate various string distances based on edits (Damerau-Levenshtein, Hamming, Levenshtein, optimal string alignment), qgrams (q-gram, cosine, jaccard distance) or heuristic metrics (Jaro, Jaro-Winkler). An implementation of soundex is provided as well. Distances can be computed between character vectors while taking proper care of encoding or between integer vectors representing generic sequences.</li>
 			<li><ohat>Rstem</ohat> (available from Omegahat) is an alternative interface to a C version of Porter's word stemming algorithm.</li>
 			<li><pkg>koRpus</pkg> is a diverse collection of functions for automatic language detection, hyphenation, several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX, Dale-Chall). See the <a href="http://reaktanz.de/?c=hacking&amp;s=koRpus">web page</a> for more information.</li>
-			<li><pkg>alineR</pkg> helps calculate the phonetic distance between words (the 'ALINE' distance). The score is based on phonetic featuers represented with the Unicode-compliant International Phonetic Alphabet (IPA). Parameterized features weights are used to determine the optimal alignment and functions are provided to estimate optimum values using a genetic algorithm and supervised learning.</li>
 			<li><pkg>ore</pkg>provides an alternative to R's built-in functionality for handling regular expressions, based on the Onigmo Regular Expression Library. Offers first-class compiled regex objects, partial matching and function-based substitutions, amongst other features. A benchmark comparing results for ore functions with stringi and the R base implementation is available <github>jonclayden/regex-performance</github>.</li>
 			<li><pkg>languageR</pkg> provides data sets and functions exemplifying statistical methods, and some facilitatory utility functions used in the book by R. H. Baayen: "Analyzing Linguistic Data: a Practical Introduction to Statistics Using R", Cambridge University Press, 2008.</li>
 			<li><pkg>zipfR</pkg> offers some statistical models for word frequency distributions. The utilities include functions for loading, manipulating and visualizing word frequency data and vocabulary growth curves. The package also implements several statistical models for the distribution of word frequencies in a population. (The name of this library derives from the most famous word frequency distribution, Zipf's law.)</li>
@@ -102,7 +101,6 @@
   </info>
 
   <packagelist>
-     <pkg>alineR</pkg>
      <pkg>boilerpipeR</pkg>
      <pkg>BTM</pkg>
      <pkg>corpora</pkg>
