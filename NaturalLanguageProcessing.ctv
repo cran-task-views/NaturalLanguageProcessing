@@ -3,7 +3,7 @@
   <name>NaturalLanguageProcessing</name>
   <topic>Natural Language Processing</topic>
   <maintainer email="wild@brookes.ac.uk">Fridolin Wild, Performance Augmentation Lab (PAL), Oxford Brookes University, UK</maintainer>
-  <version>2021-05-21</version>
+  <version>2021-10-20</version>
   
   <info>
   
@@ -91,7 +91,6 @@
 		<li><pkg>corporaexplorer</pkg> facilitates visual information retrieval over document collections, supporting filtering and corpus-level as well as document-level visualisation using an interactive web apps built using Shiny.</li>
 		<li><pkg>textplot</pkg> provides various methods for corpus-, document-, and sentence-level visualisation.</li>
 		<li><pkg>tm.plugin.factiva</pkg>, <pkg>tm.plugin.lexisnexis</pkg>, <pkg>tm.plugin.europresse</pkg> allow importing press and Web corpora from (respectively) Dow Jones Factiva, LexisNexis, and Europresse.</li>
-		<li><pkg>LexisNexisTools</pkg> helps filing in and handling of news corpora in the LexisNexis text file format, interfacing with tidytext, tm, and quanteda.</li>
 	</ul> 
   </info>
 
@@ -107,7 +106,6 @@
      <pkg>koRpus</pkg>
      <pkg>languageR</pkg>
      <pkg>lda</pkg>
-     <pkg>LexisNexisTools</pkg>
      <pkg>lsa</pkg>
      <pkg>mscstexta4r</pkg>
      <pkg>mscsweblm4r</pkg>
