@@ -278,6 +278,6 @@ helpful.
 ### Links
 -   [The KMi cRunch tutorials](http://crunch.kmi.open.ac.uk/w/index.php/Tutorials)
 -   [A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)](http://www.stefan-evert.de/SIGIL/)
--   [Stefan Th. Gries (2009): Quantitative Corpus Linguistics with R, Routledge.](http://www.routledge.com/books/details/9780415962704/)
+-   [Stefan Th. Gries (2017): Quantitative Corpus Linguistics with R, 2nd ed., Routledge.](https://www.routledge.com/9781138816282)
 -   [ttda: Tools for Textual Data Analysis (Deprecated)](http://wwwpeople.unil.ch/jean-pierre.mueller/ttda_-_archives.html)
 -   [Corpora and NLP model packages at http://datacube.wu.ac.at/](http://datacube.wu.ac.at/)
