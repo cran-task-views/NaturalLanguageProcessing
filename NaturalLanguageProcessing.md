@@ -23,6 +23,9 @@ area are highly recommended to interface with tm's basic routines and
 useRs are cordially invited to join in the discussion on further
 developments of this framework package. 
 
+A basic introduction with comprehensive examples is provided in the
+book by Fridolin Wild (2016): Learning Analytics in R, Springer. 
+
 #### Frameworks:
 
 -   `r pkg("tm")` provides a comprehensive text mining
@@ -273,6 +276,7 @@ developments of this framework package.
 
 
 ### Links
+-   [Learning Analytics in R: with tutorial style examples for tm, lsa, mpia, network)](https://link.springer.com/book/10.1007/978-3-319-28791-1)
 -   [A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)](http://www.stefan-evert.de/SIGIL/)
 -   [Stefan Th. Gries (2017): Quantitative Corpus Linguistics with R, 2nd ed., Routledge.](https://www.routledge.com/9781138816282)
 -   [Dan Jurafsky and James H. Martin (2022): Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
