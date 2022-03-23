@@ -2,15 +2,15 @@
 name: NaturalLanguageProcessing
 topic: Natural Language Processing
 maintainer: Fridolin Wild
-email: wild@brookes.ac.uk
-version: 2021-12-29
+email: wild@open.ac.uk
+version: 2022-03-23
 source: https://github.com/cran-task-views/NaturalLanguageProcessing/
 ---
 
 
 Natural language processing has come a long way since its foundations
 were laid in the 1940s and 50s (for an introduction see, e.g., Jurafsky
-and Martin (2008): Speech and Language Processing, Pearson Prentice
+and Martin (2008, 2009, 2022 draft third edition): Speech and Language Processing, Pearson Prentice
 Hall). This CRAN task view collects relevant R packages that support
 computational linguists in conducting analysis of speech and language on
 a variety of levels - setting focus on words, syntax, semantics, and
@@ -21,10 +21,7 @@ dealing with the processing of written material: the package
 `r pkg("tm", priority = "core")`. Extension packages in this
 area are highly recommended to interface with tm's basic routines and
 useRs are cordially invited to join in the discussion on further
-developments of this framework package. To get into natural language
-processing, the [cRunch service](http://cRunch.kmi.open.ac.uk) and
-[tutorials](http://cRunch.kmi.open.ac.uk/w/index.php/Tutorials) may be
-helpful.
+developments of this framework package. 
 
 #### Frameworks:
 
@@ -276,8 +273,7 @@ helpful.
 
 
 ### Links
--   [The KMi cRunch tutorials](http://crunch.kmi.open.ac.uk/w/index.php/Tutorials)
 -   [A Gentle Introduction to Statistics for (Computational) Linguists (SIGIL)](http://www.stefan-evert.de/SIGIL/)
 -   [Stefan Th. Gries (2017): Quantitative Corpus Linguistics with R, 2nd ed., Routledge.](https://www.routledge.com/9781138816282)
--   [ttda: Tools for Textual Data Analysis (Deprecated)](http://wwwpeople.unil.ch/jean-pierre.mueller/ttda_-_archives.html)
+-   [Dan Jurafsky and James H. Martin (2022): Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 -   [Corpora and NLP model packages at http://datacube.wu.ac.at/](http://datacube.wu.ac.at/)
