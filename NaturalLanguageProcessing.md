@@ -239,7 +239,7 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
 -   `r pkg("movMF")` provides another clustering alternative
     (approximations are fitted with von Mises-Fisher distributions of
     the unit length vectors).
--   `R pkg("svs")` offers simple implementations of various techniques
+-   `r pkg("svs")` offers simple implementations of various techniques
     for semantic vector spaces (viz. latent semantic analysis,
     probabilistic latent semantic analysis, non-negative matrix
     factorization, EM clustering, latent class analysis, 
