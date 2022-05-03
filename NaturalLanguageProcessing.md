@@ -255,7 +255,7 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     words by continuous bag of words and skip-gram implementations of the
     "word2vec" algorithm. The techniques are detailed in the paper
     [Distributed Representations of Words and Phrases and their 
-    Compositionality](http://www.springerlink.com/content/g7u377132gq5623g/) by Mikolov et al. (2013).
+    Compositionality](https://arxiv.org/abs/1310.4546) by Mikolov et al. (2013).
 
 #### Pragmatics:
 
