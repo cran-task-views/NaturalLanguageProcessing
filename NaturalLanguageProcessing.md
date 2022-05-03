@@ -251,6 +251,11 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
 -   `r pkg("text2vec")` provides tools for text
     vectorization, topic modeling (LDA, LSA), word embeddings (GloVe),
     and similarities.
+-   `r pkg("word2vec")` allows you to learn vector representations of 
+    words by continuous bag of words and skip-gram implementations of the
+    "word2vec" algorithm. The techniques are detailed in the paper
+    [Distributed Representations of Words and Phrases and their 
+    Compositionality](http://www.springerlink.com/content/g7u377132gq5623g/) by Mikolov et al. (2013).
 
 #### Pragmatics:
 
