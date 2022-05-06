@@ -178,8 +178,7 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     Microsoft Cognitive Services Text Analytics API and can be used to
     perform sentiment analysis, topic detection, language detection, and
     key phrase extraction.
--   `r github("bnosac/sentencepiece")` (available from
-    github) is an unsupervised tokeniser producing Byte Pair Encoding
+-   `r pkg("sentencepiece")` is an unsupervised tokeniser producing Byte Pair Encoding
     (BPE), Unigram, Char, or Word models.
 -   `r pkg("tokenizers")` helps split text into tokens,
     supporting shingled n-grams, skip n-grams, words, word stems,
