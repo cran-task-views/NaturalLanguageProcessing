@@ -3,7 +3,7 @@ name: NaturalLanguageProcessing
 topic: Natural Language Processing
 maintainer: Fridolin Wild
 email: wild@open.ac.uk
-version: 2022-03-23
+version: 2022-05-06
 source: https://github.com/cran-task-views/NaturalLanguageProcessing/
 ---
 
@@ -200,13 +200,8 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     are derived statistically via a truncated singular value
     decomposition (a two-mode factor analysis) over a given
     document-term matrix, this variability problem can be overcome. The
-    article [Investigating Unstructured Texts with Latent Semantic
-    Analysis](http://www.springerlink.com/content/g7u377132gq5623g/)
-    gives a detailed overview and demonstrates the use of the package
-    with examples from the are of technology-enhanced learning. The book
-    [Learning Analytics in R with LSA, SNA, and
-    MPIA](https://bitly.com/larbook) provides comprehensive
-    package-by-package examples and code samples.
+    article [Representing and Analysing Meaning with LSA](https://doi.org/10.1007/978-3-319-28791-1_4) by Wild (2016)
+    gives a detailed overview and comprehensive examples.
 -   `r pkg("topicmodels")` provides an interface to the C
     code for Latent Dirichlet Allocation (LDA) models and Correlated
     Topics Models (CTM) by David M. Blei and co-authors and the C++ code
