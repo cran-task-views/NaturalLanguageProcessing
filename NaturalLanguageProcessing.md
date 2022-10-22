@@ -188,6 +188,9 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     library.
 -   `r pkg("crfsuite")` uses Conditional Random Fields for
     labelling sequential data.
+-   `r pkg("jiebaR")` Chinese text segmentation,
+    keyword extraction and speech tagging For R.
+    
 
 #### Semantics:
 
