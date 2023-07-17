@@ -3,7 +3,7 @@ name: NaturalLanguageProcessing
 topic: Natural Language Processing
 maintainer: Fridolin Wild
 email: wild@open.ac.uk
-version: 2022-05-06
+version: 2023-07-17
 source: https://github.com/cran-task-views/NaturalLanguageProcessing/
 ---
 
@@ -41,11 +41,6 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     messages from archive files such as used in Thunderbird (mbox, eml).
 -   `r pkg("tm.plugin.alceste")` allows importing text
     corpora written in a file in the Alceste format.
--   `r pkg("tm.plugin.webmining")` allow importing news
-    feeds in XML (RSS, ATOM) and JSON formats. Currently, the following
-    feeds are implemented: Google Blog Search, Google Finance, Google
-    News, NYTimes Article Search, Reuters News Feed, Yahoo Finance, and
-    Yahoo Inplay.
 -   `r pkg("RcmdrPlugin.temis")` is an Rcommander plug-in
     providing an integrated solution to perform a series of text mining
     tasks such as importing and cleaning a corpus, and analyses like
