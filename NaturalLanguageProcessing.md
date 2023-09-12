@@ -185,8 +185,10 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     labelling sequential data.
 -   `r pkg("jiebaR")` Chinese text segmentation,
     keyword extraction and speech tagging For R.
+-   `r pkg("keyperm")` implements a novel approach to keyword analysis based
+    on permutation tests, i.e. identifcation of words that are significantly
+    more frequent in one corpus compared to another. 
     
-
 #### Semantics:
 
 -   `r pkg("lsa")` provides routines for performing a latent
