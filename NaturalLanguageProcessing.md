@@ -3,7 +3,7 @@ name: NaturalLanguageProcessing
 topic: Natural Language Processing
 maintainer: Fridolin Wild
 email: wild@open.ac.uk
-version: 2023-07-17
+version: 2023-09-12
 source: https://github.com/cran-task-views/NaturalLanguageProcessing/
 ---
 
