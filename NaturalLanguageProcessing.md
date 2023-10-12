@@ -233,6 +233,10 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
 -   `r pkg("movMF")` provides another clustering alternative
     (approximations are fitted with von Mises-Fisher distributions of
     the unit length vectors).
+-   `r pkg("sentometrics")` Optimized prediction based on textual sentiment,
+     accounting for the intrinsic challenge that sentiment can be computed and
+     pooled across texts and time in various ways.
+     See [Ardia et al. (2021)](https://doi.org/10.1007/978-3-319-28791-1_4)
 -   `r pkg("svs")` offers simple implementations of various techniques
     for semantic vector spaces (viz. latent semantic analysis,
     probabilistic latent semantic analysis, non-negative matrix
