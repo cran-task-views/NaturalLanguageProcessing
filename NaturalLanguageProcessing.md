@@ -266,7 +266,15 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     analysis of transcripts.
 -   `r pkg("quanteda")` supports quantitative analysis of
     textual data.
-
+-   `r pkg("sentiment.ai")` performs sentence-level text embedding and context-aware sentiment analysis with
+    pre-trained sentiment models (you can also use your own models).
+    This approach outperforms bag-of-words-based sentiment analysis and allows the user to perform clustering
+    and other supervised learning on embedded text in addition to the built-in sentiment scoring functions.
+    sentiment.ai also provides functionality to use cosine similarity to perform matching between matrices of embedded text. 
+    Currently supports Google's Universal Sentence Encoder models (English or Multi-Lingual) though can support other Tensorflow hub embedding models. 
+    Can use GPU acceleration via NVIDIA Cuda for scalability. 
+     
+      
 #### Corpora:
 
 -   `r pkg("corporaexplorer")` facilitates visual
