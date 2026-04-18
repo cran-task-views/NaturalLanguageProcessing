@@ -3,7 +3,7 @@ name: NaturalLanguageProcessing
 topic: Natural Language Processing
 maintainer: Fridolin Wild
 email: wild@open.ac.uk
-version: 2023-09-12
+version: 2026-04-18
 source: https://github.com/cran-task-views/NaturalLanguageProcessing/
 ---
 
@@ -119,9 +119,6 @@ book by Fridolin Wild (2016): Learning Analytics in R, Springer.
     An implementation of soundex is provided as well. Distances can be
     computed between character vectors while taking proper care of
     encoding or between integer vectors representing generic sequences.
--   `r ohat("Rstem")` (available from Omegahat) is an
-    alternative interface to a C version of Porter's word stemming
-    algorithm.
 -   `r pkg("koRpus")` is a diverse collection of functions
     for automatic language detection, hyphenation, several indices of
     lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and
